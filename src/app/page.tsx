@@ -2,6 +2,7 @@ import Nav from "~/components/Nav";
 import Socials from "~/components/Socials";
 import Experience from "~/components/Experience";
 import { FiArrowUpRight } from "react-icons/fi";
+import Projects from "~/components/Projects";
 
 export default function Home() {
   return (
@@ -101,8 +102,20 @@ export default function Home() {
             <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
               Projects
             </h3>
-            <div className="bg-navy-light/50 h-96 rounded p-6">
-              <p>Projects content coming soon.</p>
+
+            <div className="group/list">
+              <Projects />
+            </div>
+
+            <div className="mt-12">
+              <a
+                className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-center text-base leading-tight font-semibold"
+                href="/archive"
+                aria-label="View Full Project Archive"
+              >
+                <span>View Full Project Archive</span>
+                <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+              </a>
             </div>
           </section>
         </main>
