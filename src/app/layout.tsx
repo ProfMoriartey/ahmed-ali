@@ -15,8 +15,23 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Brittany Chiang Clone",
-  description: "A portfolio recreation",
+  title: "Ahmed Alhusaini | Software Engineer",
+  description: "I turn ideas into easy to use digital experiences.",
+  openGraph: {
+    title: "Ahmed Alhusaini | Software Engineer",
+    description: "I turn ideas into easy to use digital experiences.",
+    url: "https://ahmedalhusaini.com",
+    siteName: "Ahmed Alhusaini",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

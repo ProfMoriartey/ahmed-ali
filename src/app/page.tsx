@@ -20,14 +20,13 @@ export default function Home() {
           <ScrollReveal>
             <div>
               <h1 className="text-slate-lightest text-4xl font-bold tracking-tight sm:text-5xl">
-                Your Name
+                Ahmed Alhusaini
               </h1>
               <h2 className="text-slate-light mt-3 text-lg font-medium tracking-tight sm:text-xl">
-                Senior Frontend Engineer
+                Freelance Software Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
-                I build accessible, pixel-perfect digital experiences for the
-                web.
+                I turn ideas into easy to use digital experiences.
               </p>
               <Nav />
             </div>
@@ -50,31 +49,44 @@ export default function Home() {
               </h3>
               <div className="text-slate flex flex-col gap-4">
                 <p>
-                  Back in 2012, I decided to try my hand at creating custom
-                  Tumblr themes and tumbled head first into the rabbit hole of
-                  coding and web development. Fast-forward to today, and I’ve
-                  had the privilege of building software for an{" "}
-                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    advertising agency
-                  </span>
-                  , a{" "}
-                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    start-up
-                  </span>
-                  , a huge corporation, and a student-led design studio.
+                  I am a software developer with an expertise in building
+                  accessible, pixel-perfect user interfaces. I do my best work
+                  at the intersection of design and engineering, where complex
+                  requirements meet clean, scalable code. I take pride in
+                  crafting thoughtful, inclusive products with a sharp eye for
+                  the technical details that elevate user experience.
                 </p>
                 <p>
-                  My main focus these days is building accessible, inclusive
-                  products and digital experiences at{" "}
+                  Currently, I lead the web presence for{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    Upstatement
+                    Tüzemen Textile
+                  </span>
+                  , where I built and maintain their official platform from the
+                  ground up. Parallel to this, I manage the full project
+                  lifecycle for freelance applications like{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Menupedia
                   </span>{" "}
-                  for a variety of clients.
+                  and{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Hayat Goz
+                  </span>
+                  , and have maintained the web presence for the Finnish youth
+                  organization{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Hangflow
+                  </span>{" "}
+                  for over two years. I partner closely with stakeholders to
+                  ensure accessibility and multi-language support are built into
+                  the foundation of every product.
                 </p>
                 <p>
-                  When I'm not at the computer, I'm usually hanging out with my
-                  wife and two cats, or running around Eorzea searching for the
-                  next great adventure.
+                  Previously, I have worked on a range of environments—from
+                  AI-driven medical tools to dynamic booking systems. These
+                  experiences, combined with my background in Chemistry and
+                  professional certifications from Meta and Google, have shaped
+                  how I think about building products that are both technically
+                  robust and widely usable.
                 </p>
               </div>
             </ScrollReveal>
