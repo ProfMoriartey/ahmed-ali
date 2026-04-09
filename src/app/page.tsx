@@ -2,7 +2,7 @@ import Nav from "~/components/Nav";
 import Socials from "~/components/Socials";
 import Experience from "~/components/Experience";
 import Projects from "~/components/Projects";
-import ScrollReveal from "~/components/ScrollReveal"; // 1. Add import
+import ScrollReveal from "~/components/ScrollReveal";
 import { FiArrowUpRight } from "react-icons/fi";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
                 Freelance Software Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
-                I turn ideas into easy to use digital experiences.
+                I turn ideas into useful digital experiences.
               </p>
               <Nav />
             </div>
@@ -49,17 +49,17 @@ export default function Home() {
               </h3>
               <div className="text-slate flex flex-col gap-4">
                 <p>
-                  I am a software developer with an expertise in building
-                  accessible, pixel-perfect user interfaces. I do my best work
-                  at the intersection of design and engineering, where complex
+                  I am a Software Engineer with an expertise in turning ideas
+                  into useful digital experiences. I do my best work at the
+                  intersection of design and engineering, where complex
                   requirements meet clean, scalable code. I take pride in
-                  crafting thoughtful, inclusive products with a sharp eye for
-                  the technical details that elevate user experience.
+                  crafting thoughtful, inclusive products with intentional focus
+                  on the technical details that elevate the user experience.
                 </p>
                 <p>
                   Currently, I lead the web presence for{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    Tüzemen Textile
+                    Tüzemen Group
                   </span>
                   , where I built and maintain their official platform from the
                   ground up. Parallel to this, I manage the full project
@@ -69,24 +69,33 @@ export default function Home() {
                   </span>{" "}
                   and{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    Hayat Goz
+                    Hastory
                   </span>
-                  , and have maintained the web presence for the Finnish youth
-                  organization{" "}
+                  , and have created and maintained the web presence for the
+                  Finnish youth organization{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Hangflow
                   </span>{" "}
-                  for over two years. I partner closely with stakeholders to
-                  ensure accessibility and multi-language support are built into
-                  the foundation of every product.
+                  for over two years. I ensure accessibility and multi-language
+                  support are built into the foundation of every product.
                 </p>
                 <p>
                   Previously, I have worked on a range of environments—from
                   AI-driven medical tools to dynamic booking systems. These
-                  experiences, combined with my background in Chemistry and
-                  professional certifications from Meta and Google, have shaped
-                  how I think about building products that are both technically
-                  robust and widely usable.
+                  experiences, combined with Bachelor of Science in{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Chemistry
+                  </span>{" "}
+                  and professional certifications from{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Meta
+                  </span>{" "}
+                  and{" "}
+                  <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
+                    Google
+                  </span>
+                  , have shaped how I think about building products that are
+                  both technically robust and widely usable.
                 </p>
               </div>
             </ScrollReveal>
