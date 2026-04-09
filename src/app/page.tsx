@@ -1,3 +1,6 @@
+import Nav from "~/components/Nav";
+import Socials from "~/components/Socials";
+
 export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -13,7 +16,10 @@ export default function Home() {
             <p className="mt-4 max-w-xs leading-normal">
               I build accessible, pixel-perfect digital experiences for the web.
             </p>
+            <Nav />
           </div>
+
+          <Socials />
         </header>
 
         <main className="pt-24 lg:w-1/2 lg:py-24">
@@ -24,7 +30,13 @@ export default function Home() {
             <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
               About
             </h3>
-            <p>About section content placeholder.</p>
+            <p className="mb-4">
+              Back in 2012, I decided to try my hand at creating custom Tumblr
+              themes and tumbled head first into the rabbit hole of coding and
+              web development. Fast-forward to today, and I’ve had the privilege
+              of building software for an advertising agency, a start-up, a huge
+              corporation, and a student-led design studio.
+            </p>
           </section>
 
           <section
@@ -34,7 +46,9 @@ export default function Home() {
             <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
               Experience
             </h3>
-            <p>Experience section content placeholder.</p>
+            <div className="bg-navy-light/50 h-96 rounded p-6">
+              <p>Experience content coming soon.</p>
+            </div>
           </section>
 
           <section
@@ -44,7 +58,9 @@ export default function Home() {
             <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
               Projects
             </h3>
-            <p>Projects section content placeholder.</p>
+            <div className="bg-navy-light/50 h-96 rounded p-6">
+              <p>Projects content coming soon.</p>
+            </div>
           </section>
         </main>
       </div>
