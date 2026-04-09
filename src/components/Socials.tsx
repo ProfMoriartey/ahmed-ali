@@ -18,19 +18,9 @@ const socialLinks = [
     icon: FiLinkedin,
   },
   {
-    name: "CodePen",
-    href: "https://codepen.io",
-    icon: FiCodepen,
-  },
-  {
     name: "Instagram",
     href: "https://www.instagram.com/ahmedalhusaini_/",
     icon: FiInstagram,
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com",
-    icon: FiTwitter,
   },
 ];
 

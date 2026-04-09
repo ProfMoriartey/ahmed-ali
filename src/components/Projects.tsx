@@ -7,8 +7,7 @@ const projectsData = [
     description:
       "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
     technologies: ["React", "Express", "Spotify API", "Styled Components"],
-    link: "https://example.com",
-    github: "https://github.com",
+    link: "https://tuzemen-tekstil.vercel.app",
     image: "/projects/project-1.jpg",
   },
   {
@@ -16,7 +15,7 @@ const projectsData = [
     description:
       "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
     technologies: ["VS Code", "Sublime Text", "Atom", "iTerm2"],
-    link: "https://example.com",
+    link: "https://hangflow.org/",
     image: "/projects/project-2.jpg",
   },
 ];
