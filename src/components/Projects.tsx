@@ -3,19 +3,19 @@ import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 
 const projectsData = [
   {
-    title: "Build a Spotify Connected App",
+    title: "Built a full-stack web app",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-    technologies: ["React", "Express", "Spotify API", "Styled Components"],
+      "A corporate platform for Tüzemen Group using Next.js, Drizzle, and PostgreSQL. Contains high-scale product catalog with 800+ variants, featuring dynamic filtering, an automated B2B ordering system, a custom inventory management dashboard, and more.",
+    technologies: ["NextJS", "Shadcn UI", "PostgresSQL", "Admin Dashboard"],
     link: "https://tuzemen-tekstil.vercel.app",
     image: "/projects/project-1.jpg",
   },
   {
-    title: "Halcyon Theme",
+    title: "Menupedia",
     description:
-      "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
-    technologies: ["VS Code", "Sublime Text", "Atom", "iTerm2"],
-    link: "https://hangflow.org/",
+      "A multilingual restaurant management platform using Next.js, Clerk, and Drizzle ORM. I engineered a secure admin dashboard for full menu control, featuring real-time search and an optimized PostgreSQL database to handle cross-language content.",
+    technologies: ["NextJS", "Clerk", "Drizzle", "User Interface"],
+    link: "https://menu-pedia.com/",
     image: "/projects/project-2.jpg",
   },
 ];

@@ -16,10 +16,10 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmed Alhusaini | Software Engineer",
+  title: "Ahmed Alhusaini | Software Dveloper",
   description: "I turn ideas into useful digital experiences.",
   openGraph: {
-    title: "Ahmed Alhusaini | Software Engineer",
+    title: "Ahmed Alhusaini | Software Dveloper",
     description: "I turn ideas into useful digital experiences.",
     url: "https://ahmedalhusaini.com",
     siteName: "Ahmed Alhusaini",

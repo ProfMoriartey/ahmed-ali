@@ -23,7 +23,7 @@ export default function Home() {
                 Ahmed Alhusaini
               </h1>
               <h2 className="text-slate-light mt-3 text-lg font-medium tracking-tight sm:text-xl">
-                Freelance Software Engineer
+                Freelance Software Dveloper
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
                 I turn ideas into useful digital experiences.
@@ -49,9 +49,9 @@ export default function Home() {
               </h3>
               <div className="text-slate flex flex-col gap-4">
                 <p>
-                  I am a Software Engineer with an expertise in turning ideas
+                  I am a Software Dveloper with an expertise in turning ideas
                   into useful digital experiences. I do my best work at the
-                  intersection of design and engineering, where complex
+                  intersection of design and Dvelopering, where complex
                   requirements meet clean, scalable code. I take pride in
                   crafting thoughtful, inclusive products with intentional focus
                   on the technical details that elevate the user experience.
@@ -59,7 +59,7 @@ export default function Home() {
                 <p>
                   Currently, I lead the web presence for{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
-                    Tüzemen Group
+                    Tüzemen Textile
                   </span>
                   , where I built and maintain their official platform from the
                   ground up. Parallel to this, I manage the full project
@@ -115,7 +115,7 @@ export default function Home() {
               <div className="mt-12">
                 <a
                   className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-baseline text-base leading-tight font-medium"
-                  href="/resume.pdf"
+                  href="/Ahmed-Alhusaini-CV.pdf"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

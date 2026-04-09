@@ -5,23 +5,23 @@ const experienceData = [
     date: "2023 — Present",
     title: "Freelance Web Developer",
     company: "Freelance",
-    link: "https://hangflow.org/",
+    link: "https://github.com/ProfMoriartey/",
     description:
-      "Build and maintain critical components used to construct frontend pages across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      "Build tailored full-stack applications using Next.js and TypeScript to solve specific client needs. I manage the entire project lifecycle—from initial design and database architecture to final deployment and long-term maintenance.",
+    technologies: ["Next.js", "Shadcn UI", "Clerk", "Vercel"],
   },
   {
     date: "2023 — Present",
-    title: "International Marketing Specialist",
+    title: "Full-Stack Developer & Marketing Specialist",
     company: "Tüzemen Textile",
-    link: "https://example.com",
+    link: "https://tuzemen-tekstil.vercel.app/",
     description:
-      "Secured new clients through international trips and product presentations. Optimized export and courier logistics for faster global shipping. Managed end-to-end B2B sales cycles from lead generation to after-sales support. ",
+      "Build and maintain the official company platform using Next.js, Drizzle, and PostgreSQL. I engineered a high-scale product catalog with 800+ variants and a custom B2B ordering system to streamline international sales. My role involves managing the full development lifecycle while securing new global clients and optimizing export logistics.",
     technologies: [
-      "Time Managment",
+      "Web development",
       "Leadership",
       "Communication",
-      "Multitasking",
+      "International Sales",
     ],
   },
 ];
