@@ -59,9 +59,9 @@ export default function Home() {
                 for a variety of clients.
               </p>
               <p>
-                When I'm not at the computer, I'm usually hanging out with my
-                wife and two cats, or running around Eorzea searching for the
-                next great adventure.
+                When I&apos;m not at the computer, I&apos;m usually hanging out
+                with my wife and two cats, or running around Eorzea searching
+                for the next great adventure.
               </p>
             </div>
           </section>
