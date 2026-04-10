@@ -3,7 +3,7 @@ import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 
 const projectsData = [
   {
-    title: "Built a full-stack web app",
+    title: "Full-stack web app",
     description:
       "A corporate platform for Tüzemen Group using Next.js, Drizzle, and PostgreSQL. Contains high-scale product catalog with 800+ variants, featuring dynamic filtering, an automated B2B ordering system, a custom inventory management dashboard, and more.",
     technologies: ["NextJS", "Shadcn UI", "PostgresSQL", "Admin Dashboard"],
@@ -11,9 +11,9 @@ const projectsData = [
     image: "/projects/project-1.jpg",
   },
   {
-    title: "Menupedia",
+    title: "Digital Menu Platform",
     description:
-      "A multilingual restaurant management platform using Next.js, Clerk, and Drizzle ORM. I engineered a secure admin dashboard for full menu control, featuring real-time search and an optimized PostgreSQL database to handle cross-language content.",
+      "A multilingual menu management platform using Next.js, Clerk, and Drizzle ORM. I engineered a secure admin dashboard for full menu control, featuring real-time search and an optimized PostgreSQL database to handle cross-language content.",
     technologies: ["NextJS", "Clerk", "Drizzle", "User Interface"],
     link: "https://menu-pedia.com/",
     image: "/projects/project-2.jpg",

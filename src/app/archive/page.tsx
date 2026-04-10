@@ -4,25 +4,60 @@ import { FiArrowLeft, FiArrowUpRight } from "react-icons/fi";
 // Placeholder data - replace with your actual comprehensive project list
 const archiveData = [
   {
-    year: "2024",
-    title: "E-Commerce Platform",
-    madeAt: "Company Name",
-    builtWith: ["Next.js", "TypeScript", "Stripe"],
-    link: "https://example.com",
+    year: "2026",
+    title: "Portfolio v5 Clone",
+    madeAt: "Personal",
+    builtWith: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    link: "https://ahmedalhusaini.com",
   },
   {
-    year: "2023",
+    year: "2026",
+    title: "Coorprate Website",
+    madeAt: "Tuzemen Textile",
+    builtWith: ["Next.js", "TypeScript", "PostgresSQL"],
+    link: "https://tuzemen-tekstil.vercel.app",
+  },
+  {
+    year: "2026",
+    title: "Organization Webstie",
+    madeAt: "Hangflow ry",
+    builtWith: ["Next.js", "Next-Intl", "Tailwind CSS"],
+    link: "https://hangflow.org",
+  },
+  {
+    year: "2025",
+    title: "QR Code Generator",
+    madeAt: "Personal",
+    builtWith: ["Next.js", "Tailwind CSS", "Drizzle"],
+    link: "https://code-cooker.vercel.app",
+  },
+  {
+    year: "2025",
+    title: "Digital Menu Platform",
+    madeAt: "SAAS",
+    builtWith: ["Next.js", "Clerk", "PostgresSQL"],
+    link: "https://menu-pedia.com", // No link available
+  },
+  {
+    year: "2025",
+    title: "AI-Medical Assistant",
+    madeAt: "Personal",
+    builtWith: ["Next.js", "OpenAI API", "Drizzle"],
+    link: "https://hastory.vercel.app", // No link available
+  },
+  {
+    year: "2025",
+    title: "Appointment System",
+    madeAt: "Hayaz Goz Clinic",
+    builtWith: ["Next.js", "Drizzle", "TypeScript"],
+    link: "https://hayat-goz.vercel.app", // No link available
+  },
+  {
+    year: "2024",
     title: "Portfolio v4 Clone",
     madeAt: "Personal",
     builtWith: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://github.com",
-  },
-  {
-    year: "2022",
-    title: "Internal Dashboard",
-    madeAt: "Previous Agency",
-    builtWith: ["Vue", "Firebase", "Sass"],
-    link: "", // No link available
+    link: "https://ahmed-alhusaini.vercel.app", // No link available
   },
 ];
 
@@ -36,7 +71,7 @@ export default function Archive() {
           className="group text-teal mb-2 inline-flex items-center leading-tight font-semibold transition-all"
         >
           <FiArrowLeft className="mr-1 h-4 w-4 transition-transform group-hover:-translate-x-2" />
-          Your Name
+          Ahmed Alhusaini
         </Link>
         <h1 className="text-slate-lightest text-4xl font-bold tracking-tight sm:text-5xl">
           All Projects

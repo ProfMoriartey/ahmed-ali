@@ -49,53 +49,52 @@ export default function Home() {
               </h3>
               <div className="text-slate flex flex-col gap-4">
                 <p>
-                  I am a Software Dveloper with an expertise in turning ideas
-                  into useful digital experiences. I do my best work at the
-                  intersection of design and Dvelopering, where complex
-                  requirements meet clean, scalable code. I take pride in
-                  crafting thoughtful, inclusive products with intentional focus
-                  on the technical details that elevate the user experience.
+                  I give great importance to building accessible, easy-to-use
+                  interfaces where design meets scalable code. I specialize in
+                  turning complex ideas into digital products that are
+                  inclusive, robust, and globally ready.
                 </p>
                 <p>
+                  {" "}
                   Currently, I lead the web presence for{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Tüzemen Textile
                   </span>
                   , where I built and maintain their official platform from the
-                  ground up. Parallel to this, I manage the full project
-                  lifecycle for freelance applications like{" "}
+                  ground up while also managing international sales and
+                  logistics. Alongside this, I manage the full project lifecycle
+                  for applications like{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Menupedia
                   </span>{" "}
                   and{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Hastory
-                  </span>
-                  , and have created and maintained the web presence for the
-                  Finnish youth organization{" "}
+                  </span>{" "}
+                  , and have maintained the web presence for the Finnish
+                  organization{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Hangflow
                   </span>{" "}
-                  for over two years. I ensure accessibility and multi-language
-                  support are built into the foundation of every product.
+                  for over two years.
                 </p>
                 <p>
-                  Previously, I have worked on a range of environments—from
-                  AI-driven medical tools to dynamic booking systems. These
-                  experiences, combined with Bachelor of Science in{" "}
+                  {" "}
+                  My Bachelor of Science in{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Chemistry
                   </span>{" "}
-                  and professional certifications from{" "}
+                  and certifications from{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Meta
                   </span>{" "}
                   and{" "}
                   <span className="text-slate-lightest hover:text-teal focus-visible:text-teal font-medium">
                     Google
-                  </span>
-                  , have shaped how I think about building products that are
-                  both technically robust and widely usable.
+                  </span>{" "}
+                  drive my analytical approach to engineering. I always focus on
+                  building projects that scale and communicate across languages
+                  and borders.
                 </p>
               </div>
             </ScrollReveal>
