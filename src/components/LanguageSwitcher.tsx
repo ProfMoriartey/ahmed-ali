@@ -50,7 +50,7 @@ export default function LanguageSwitcher() {
               value={locale}
               className="bg-navy text-slate-lightest"
             >
-              {localeNames[locale] || locale.toUpperCase()}
+              {localeNames[locale] ?? locale.toUpperCase()}
             </option>
           ))}
         </select>

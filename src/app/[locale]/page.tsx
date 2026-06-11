@@ -6,6 +6,7 @@ import ScrollReveal from "~/components/ScrollReveal";
 import { FiArrowUpRight } from "react-icons/fi";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "~/i18n/routing";
+import Link from "next/link";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -128,14 +129,14 @@ export default async function Home({
               </div>
 
               <div className="mt-12">
-                <a
+                <Link
                   className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-center text-base leading-tight font-semibold"
                   href="/archive"
                   aria-label={t("projects.viewArchive")}
                 >
                   <span>{t("projects.viewArchive")}</span>
                   <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
-                </a>
+                </Link>
               </div>
             </ScrollReveal>
           </section>
