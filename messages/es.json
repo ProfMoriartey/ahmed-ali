@@ -1,0 +1,98 @@
+{
+  "Home": {
+    "skipToContent": "Saltar al contenido",
+    "name": "Ahmed Alhusaini",
+    "title": "Desarrollador de Software",
+    "description": "Convierto ideas en experiencias digitales útiles.",
+    "about": {
+      "title": "Sobre mí",
+      "p1": "Doy gran importancia a la construcción de interfaces accesibles y fáciles de usar, donde el diseño se une a un código escalable. Me especializo en convertir ideas complejas en productos digitales inclusivos, robustos y listos a nivel global.",
+      "p2": "Actualmente, dirijo la presencia web de <highlight>Tüzemen Textile</highlight>, donde construí y mantengo su plataforma oficial desde cero mientras gestiono también las ventas internacionales y la logística. Además, gestiono el ciclo de vida completo de aplicaciones como <highlight>Menupedia</highlight> y <highlight>Hastory</highlight>, y he mantenido la presencia web de la organización finlandesa <highlight>Hangflow</highlight> durante más de dos años.",
+      "p3": "Mi licenciatura en <highlight>Química</highlight> y mis certificaciones de <highlight>Meta</highlight> y <highlight>Google</highlight> impulsan mi enfoque analítico hacia la ingeniería. Siempre me centro en construir proyectos que escalen y se comuniquen a través de idiomas y fronteras."
+    },
+    "experience": {
+      "title": "Experiencia",
+      "viewFull": "Ver completo ",
+      "resume": "Currículum"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "viewArchive": "Ver archivo completo de proyectos"
+    }
+  },
+  "Archive": {
+    "backButton": "Ahmed Alhusaini",
+    "title": "Todos los proyectos",
+    "table": {
+      "year": "Año",
+      "project": "Proyecto",
+      "madeAt": "Hecho para",
+      "builtWith": "Construido con",
+      "link": "Enlace"
+    },
+    "projects": {
+      "v5": "Clon del Portafolio v5",
+      "corporate": "Sitio Web Corporativo",
+      "organization": "Sitio Web de la Organización",
+      "qr": "Generador de Códigos QR",
+      "menu": "Plataforma de Menú Digital",
+      "medical": "Asistente Médico de IA",
+      "appointment": "Sistema de Citas",
+      "v4": "Clon del Portafolio v4"
+    },
+    "labels": {
+      "personal": "Personal"
+    }
+  },
+  "ExperienceComponent": {
+    "jobs": [
+      {
+        "date": "2023 — Presente",
+        "title": "Desarrollador Web",
+        "company": "Autónomo",
+        "link": "https://www.ahmedalhusaini.com/",
+        "description": "Construyo aplicaciones full-stack personalizadas utilizando Next.js y TypeScript para resolver necesidades específicas de los clientes. Gestiono todo el ciclo de vida del proyecto, desde el diseño inicial y la arquitectura de la base de datos hasta el despliegue final y el mantenimiento a largo plazo.",
+        "technologies": ["Next.js", "Shadcn UI", "Clerk", "Vercel"]
+      },
+      {
+        "date": "2023 — Presente",
+        "title": "Desarrollador Full-Stack y Especialista en Marketing",
+        "company": "Tüzemen Group",
+        "link": "https://tuzemen-group.vercel.app/",
+        "description": "Construyo y mantengo la plataforma oficial de la empresa utilizando Next.js, Drizzle y PostgreSQL. Diseñé un catálogo de productos a gran escala con más de 800 variantes y un sistema de pedidos B2B personalizado para optimizar las ventas internacionales. Mi función incluye gestionar el ciclo de desarrollo completo mientras aseguro nuevos clientes globales y optimizo la logística de exportación.",
+        "technologies": ["Desarrollo Web", "Liderazgo", "Comunicación", "Ventas Internacionales"]
+      }
+    ],
+    "ariaLabels": {
+      "technologies": "Tecnologías utilizadas",
+      "opensInNewTab": "se abre en una nueva pestaña"
+    }
+  },
+  "ProjectsComponent": {
+    "items": [
+      {
+        "title": "Aplicación web full-stack",
+        "description": "Una plataforma corporativa para Tüzemen Group utilizando Next.js, Drizzle y PostgreSQL. Contiene un catálogo de productos a gran escala con más de 800 variantes, que incluye filtrado dinámico, un sistema de pedidos B2B automatizado, un panel personalizado de gestión de inventario y más.",
+        "technologies": ["NextJS", "Shadcn UI", "PostgresSQL", "Panel de Administración"],
+        "link": "https://tuzemen-tekstil.vercel.app",
+        "image": "/projects/project-1.jpg"
+      },
+      {
+        "title": "Plataforma de Menú Digital",
+        "description": "Una plataforma de gestión de menús multilingüe utilizando Next.js, Clerk y Drizzle ORM. Diseñé un panel de administración seguro para el control total del menú, que incluye búsqueda en tiempo real y una base de datos PostgreSQL optimizada para manejar contenido en varios idiomas.",
+        "technologies": ["NextJS", "Clerk", "Drizzle", "Interfaz de Usuario"],
+        "link": "https://menu-pedia.com/",
+        "image": "/projects/project-2.jpg"
+      }
+    ],
+    "ariaLabels": {
+      "technologies": "Tecnologías utilizadas",
+      "opensInNewTab": "se abre en una nueva pestaña"
+    }
+  },
+  "Nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  }
+}

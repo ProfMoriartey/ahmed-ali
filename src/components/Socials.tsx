@@ -5,6 +5,7 @@ import {
   FiInstagram,
   FiTwitter,
 } from "react-icons/fi";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const socialLinks = [
   {
@@ -26,24 +27,33 @@ const socialLinks = [
 
 export default function Socials() {
   return (
-    <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
-      {socialLinks.map((link) => {
-        const Icon = link.icon;
-        return (
-          <li key={link.name}>
-            <a
-              href={link.href}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="text-slate hover:text-slate-lightest block transition-colors duration-300"
-              aria-label={`${link.name} (opens in a new tab)`}
-            >
-              <span className="sr-only">{link.name}</span>
-              <Icon className="h-6 w-6" />
-            </a>
-          </li>
-        );
-      })}
-    </ul>
+    <div className="mt-8 flex items-center gap-8">
+      {/* Social Icons List */}
+      <ul className="flex items-center gap-5" aria-label="Social media">
+        {socialLinks.map((link) => {
+          const Icon = link.icon;
+          return (
+            <li key={link.name}>
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-slate hover:text-slate-lightest block transition-colors duration-300"
+                aria-label={`${link.name} (opens in a new tab)`}
+              >
+                <span className="sr-only">{link.name}</span>
+                <Icon className="h-6 w-6" />
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+
+      {/* Decorative dot separator (optional, but looks good in this design) */}
+      <div className="bg-slate-light/30 hidden h-1 w-1 rounded-full sm:block"></div>
+
+      {/* Language Switcher */}
+      <LanguageSwitcher />
+    </div>
   );
 }

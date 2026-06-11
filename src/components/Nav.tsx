@@ -1,15 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-const navItems = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-];
+import { useTranslations } from "next-intl";
 
 export default function Nav() {
+  const t = useTranslations("Nav");
   const [activeSection, setActiveSection] = useState("about");
+
+  // Move the array inside the component to use the translation hook
+  const navItems = [
+    { name: t("about"), href: "#about" },
+    { name: t("experience"), href: "#experience" },
+    { name: t("projects"), href: "#projects" },
+  ];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,6 +38,7 @@ export default function Nav() {
     <nav className="nav hidden lg:block">
       <ul className="mt-16 w-max">
         {navItems.map((item) => {
+          // Compare without the '#' symbol
           const isActive = activeSection === item.href.substring(1);
 
           return (
@@ -46,7 +50,7 @@ export default function Nav() {
                 }`}
               >
                 <span
-                  className={`mr-4 h-px transition-all duration-300 motion-reduce:transition-none ${
+                  className={`me-4 h-px transition-all duration-300 motion-reduce:transition-none ${
                     isActive
                       ? "bg-slate-lightest w-16"
                       : "bg-slate group-hover:bg-slate-lightest w-8 group-hover:w-16"

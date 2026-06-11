@@ -1,26 +1,20 @@
 import Image from "next/image";
-import { FiArrowUpRight, FiGithub } from "react-icons/fi";
+import { FiArrowUpRight } from "react-icons/fi";
+import { useTranslations } from "next-intl";
 
-const projectsData = [
-  {
-    title: "Full-stack web app",
-    description:
-      "A corporate platform for Tüzemen Group using Next.js, Drizzle, and PostgreSQL. Contains high-scale product catalog with 800+ variants, featuring dynamic filtering, an automated B2B ordering system, a custom inventory management dashboard, and more.",
-    technologies: ["NextJS", "Shadcn UI", "PostgresSQL", "Admin Dashboard"],
-    link: "https://tuzemen-tekstil.vercel.app",
-    image: "/projects/project-1.jpg",
-  },
-  {
-    title: "Digital Menu Platform",
-    description:
-      "A multilingual menu management platform using Next.js, Clerk, and Drizzle ORM. I engineered a secure admin dashboard for full menu control, featuring real-time search and an optimized PostgreSQL database to handle cross-language content.",
-    technologies: ["NextJS", "Clerk", "Drizzle", "User Interface"],
-    link: "https://menu-pedia.com/",
-    image: "/projects/project-2.jpg",
-  },
-];
+type Project = {
+  title: string;
+  description: string;
+  technologies: string[];
+  link: string;
+  image: string;
+};
 
 export default function Projects() {
+  const t = useTranslations("ProjectsComponent");
+
+  const projectsData = t.raw("items") as Project[];
+
   return (
     <div>
       {projectsData.map((project, index) => (
@@ -51,12 +45,12 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noreferrer noopener"
-                  aria-label={`${project.title} (opens in a new tab)`}
+                  aria-label={`${project.title} (${t("ariaLabels.opensInNewTab")})`}
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
                     {project.title}
-                    <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                    <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
                   </span>
                 </a>
               </div>
@@ -64,7 +58,10 @@ export default function Projects() {
 
             <p className="mt-2 text-sm leading-normal">{project.description}</p>
 
-            <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+            <ul
+              className="mt-2 flex flex-wrap"
+              aria-label={t("ariaLabels.technologies")}
+            >
               {project.technologies.map((tech) => (
                 <li key={tech} className="mt-2 mr-1.5">
                   <div className="bg-teal/10 text-teal flex items-center rounded-full px-3 py-1 text-xs leading-5 font-medium">

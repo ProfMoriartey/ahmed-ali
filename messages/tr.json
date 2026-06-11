@@ -1,0 +1,98 @@
+{
+  "Home": {
+    "skipToContent": "İçeriğe Atla",
+    "name": "Ahmed Alhusaini",
+    "title": "Yazılım Geliştiricisi",
+    "description": "Fikirleri kullanışlı dijital deneyimlere dönüştürüyorum.",
+    "about": {
+      "title": "Hakkımda",
+      "p1": "Tasarımın ölçeklenebilir kodla buluştuğu erişilebilir, kullanımı kolay arayüzler oluşturmaya büyük önem veriyorum. Karmaşık fikirleri kapsayıcı, sağlam ve küresel çapta hazır dijital ürünlere dönüştürme konusunda uzmanım.",
+      "p2": "Şu anda, <highlight>Tüzemen Tekstil</highlight>'in web varlığını yönetiyorum; burada resmi platformlarını sıfırdan kurup sürdürürken aynı zamanda uluslararası satış ve lojistiği de yönetiyorum. Bunun yanı sıra, <highlight>Menupedia</highlight> ve <highlight>Hastory</highlight> gibi uygulamaların tam proje yaşam döngüsünü yönetiyorum ve Finlandiyalı organizasyon <highlight>Hangflow</highlight>'un web varlığını iki yılı aşkın süredir sürdürüyorum.",
+      "p3": "<highlight>Kimya</highlight> alanındaki lisans derecem ile <highlight>Meta</highlight> ve <highlight>Google</highlight>'dan aldığım sertifikalar, mühendisliğe olan analitik yaklaşımımı yönlendiriyor. Her zaman ölçeklenen, diller ve sınırlar ötesinde iletişim kuran projeler oluşturmaya odaklanıyorum."
+    },
+    "experience": {
+      "title": "Deneyim",
+      "viewFull": "Tamamını Gör: ",
+      "resume": "Özgeçmiş"
+    },
+    "projects": {
+      "title": "Projeler",
+      "viewArchive": "Tüm Proje Arşivini Görüntüle"
+    }
+  },
+  "Archive": {
+    "backButton": "Ahmed Alhusaini",
+    "title": "Tüm Projeler",
+    "table": {
+      "year": "Yıl",
+      "project": "Proje",
+      "madeAt": "Yapılan Yer",
+      "builtWith": "Kullanılan Teknolojiler",
+      "link": "Bağlantı"
+    },
+    "projects": {
+      "v5": "Portfolyo v5 Klonu",
+      "corporate": "Kurumsal Web Sitesi",
+      "organization": "Organizasyon Web Sitesi",
+      "qr": "QR Kod Oluşturucu",
+      "menu": "Dijital Menü Platformu",
+      "medical": "Yapay Zeka Tıbbi Asistan",
+      "appointment": "Randevu Sistemi",
+      "v4": "Portfolyo v4 Klonu"
+    },
+    "labels": {
+      "personal": "Kişisel"
+    }
+  },
+  "ExperienceComponent": {
+    "jobs": [
+      {
+        "date": "2023 — Günümüz",
+        "title": "Web Geliştiricisi",
+        "company": "Serbest (Freelance)",
+        "link": "https://www.ahmedalhusaini.com/",
+        "description": "Belirli müşteri ihtiyaçlarını çözmek için Next.js ve TypeScript kullanarak özel tam yığın (full-stack) uygulamalar geliştiriyorum. İlk tasarımdan veritabanı mimarisine, son dağıtıma ve uzun vadeli bakıma kadar tüm proje yaşam döngüsünü yönetiyorum.",
+        "technologies": ["Next.js", "Shadcn UI", "Clerk", "Vercel"]
+      },
+      {
+        "date": "2023 — Günümüz",
+        "title": "Full-Stack Geliştirici ve Pazarlama Uzmanı",
+        "company": "Tüzemen Group",
+        "link": "https://tuzemen-group.vercel.app/",
+        "description": "Next.js, Drizzle ve PostgreSQL kullanarak şirketin resmi platformunu kuruyor ve yönetiyorum. Uluslararası satışları kolaylaştırmak için 800'den fazla varyanta sahip yüksek ölçekli bir ürün kataloğu ve özel bir B2B sipariş sistemi geliştirdim. Rolüm, yeni küresel müşteriler kazanırken ve ihracat lojistiğini optimize ederken tam geliştirme yaşam döngüsünü yönetmeyi içeriyor.",
+        "technologies": ["Web Geliştirme", "Liderlik", "İletişim", "Uluslararası Satış"]
+      }
+    ],
+    "ariaLabels": {
+      "technologies": "Kullanılan teknolojiler",
+      "opensInNewTab": "yeni sekmede açılır"
+    }
+  },
+  "ProjectsComponent": {
+    "items": [
+      {
+        "title": "Tam yığın (Full-stack) web uygulaması",
+        "description": "Next.js, Drizzle ve PostgreSQL kullanarak Tüzemen Group için kurumsal bir platform. Dinamik filtreleme, otomatik B2B sipariş sistemi, özel bir envanter yönetim paneli ve daha fazlasını içeren 800'den fazla varyanta sahip yüksek ölçekli ürün kataloğu içerir.",
+        "technologies": ["NextJS", "Shadcn UI", "PostgresSQL", "Yönetici Paneli"],
+        "link": "https://tuzemen-tekstil.vercel.app",
+        "image": "/projects/project-1.jpg"
+      },
+      {
+        "title": "Dijital Menü Platformu",
+        "description": "Next.js, Clerk ve Drizzle ORM kullanan çok dilli bir menü yönetim platformu. Tam menü kontrolü, gerçek zamanlı arama ve diller arası içeriği yönetmek için optimize edilmiş bir PostgreSQL veritabanı içeren güvenli bir yönetici paneli geliştirdim.",
+        "technologies": ["NextJS", "Clerk", "Drizzle", "Kullanıcı Arayüzü"],
+        "link": "https://menu-pedia.com/",
+        "image": "/projects/project-2.jpg"
+      }
+    ],
+    "ariaLabels": {
+      "technologies": "Kullanılan teknolojiler",
+      "opensInNewTab": "yeni sekmede açılır"
+    }
+  },
+  "Nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler"
+  }
+}

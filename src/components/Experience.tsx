@@ -1,32 +1,22 @@
 import { FiArrowUpRight } from "react-icons/fi";
+import { useTranslations } from "next-intl";
 
-const experienceData = [
-  {
-    date: "2023 — Present",
-    title: "Freelance Web Developer",
-    company: "Freelance",
-    link: "https://github.com/ProfMoriartey/",
-    description:
-      "Build tailored full-stack applications using Next.js and TypeScript to solve specific client needs. I manage the entire project lifecycle—from initial design and database architecture to final deployment and long-term maintenance.",
-    technologies: ["Next.js", "Shadcn UI", "Clerk", "Vercel"],
-  },
-  {
-    date: "2023 — Present",
-    title: "Full-Stack Developer & Marketing Specialist",
-    company: "Tüzemen Textile",
-    link: "https://tuzemen-tekstil.vercel.app/",
-    description:
-      "Build and maintain the official company platform using Next.js, Drizzle, and PostgreSQL. I engineered a high-scale product catalog with 800+ variants and a custom B2B ordering system to streamline international sales. My role involves managing the full development lifecycle while securing new global clients and optimizing export logistics.",
-    technologies: [
-      "Web development",
-      "Leadership",
-      "Communication",
-      "International Sales",
-    ],
-  },
-];
+// Define the type for the raw JSON data to keep TypeScript happy
+type Job = {
+  date: string;
+  title: string;
+  company: string;
+  link: string;
+  description: string;
+  technologies: string[];
+};
 
 export default function Experience() {
+  const t = useTranslations("ExperienceComponent");
+
+  // Fetch the entire array of jobs from the active translation file
+  const experienceData = t.raw("jobs") as Job[];
+
   return (
     <div>
       {experienceData.map((job, index) => (
@@ -51,14 +41,14 @@ export default function Experience() {
                   href={job.link}
                   target="_blank"
                   rel="noreferrer noopener"
-                  aria-label={`${job.title} at ${job.company} (opens in a new tab)`}
+                  aria-label={`${job.title} - ${job.company} (${t("ariaLabels.opensInNewTab")})`}
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
                     {job.title} ·{" "}
                     <span className="inline-block">
                       {job.company}
-                      <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                      <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
                     </span>
                   </span>
                 </a>
@@ -67,7 +57,10 @@ export default function Experience() {
 
             <p className="mt-2 text-sm leading-normal">{job.description}</p>
 
-            <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+            <ul
+              className="mt-2 flex flex-wrap"
+              aria-label={t("ariaLabels.technologies")}
+            >
               {job.technologies.map((tech) => (
                 <li key={tech} className="mt-2 mr-1.5">
                   <div className="bg-teal/10 text-teal flex items-center rounded-full px-3 py-1 text-xs leading-5 font-medium">
