@@ -48,7 +48,7 @@ export default function Experience() {
                     {job.title} ·{" "}
                     <span className="inline-block">
                       {job.company}
-                      <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                      <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
                     </span>
                   </span>
                 </a>

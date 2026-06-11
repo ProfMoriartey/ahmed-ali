@@ -86,7 +86,7 @@ export default async function Archive({
           href={`/${locale}`} // Ensures the back button keeps the user in their current language route
           className="group text-teal mb-2 inline-flex items-center leading-tight font-semibold transition-all"
         >
-          <FiArrowLeft className="mr-1 h-4 w-4 transition-transform group-hover:-translate-x-2" />
+          <FiArrowLeft className="me-1 h-4 w-4 transition-transform group-hover:ltr:-translate-x-2 rtl:rotate-180 group-hover:rtl:translate-x-2" />
           {t("backButton")}
         </Link>
         <h1 className="text-slate-lightest text-4xl font-bold tracking-tight sm:text-5xl">
@@ -94,22 +94,22 @@ export default async function Archive({
         </h1>
 
         {/* Archive Table */}
-        <table className="mt-12 w-full border-collapse text-left">
+        <table className="mt-12 w-full border-collapse text-left rtl:text-right">
           <thead className="border-slate-light/10 bg-navy/75 sticky top-0 z-10 border-b px-6 py-5 backdrop-blur">
             <tr>
-              <th className="text-slate-lightest py-4 pr-8 text-sm font-semibold">
+              <th className="text-slate-lightest py-4 pe-8 text-sm font-semibold">
                 {t("table.year")}
               </th>
-              <th className="text-slate-lightest py-4 pr-8 text-sm font-semibold">
+              <th className="text-slate-lightest py-4 pe-8 text-sm font-semibold">
                 {t("table.project")}
               </th>
-              <th className="text-slate-lightest hidden py-4 pr-8 text-sm font-semibold lg:table-cell">
+              <th className="text-slate-lightest hidden py-4 pe-8 text-sm font-semibold lg:table-cell">
                 {t("table.madeAt")}
               </th>
-              <th className="text-slate-lightest hidden py-4 pr-8 text-sm font-semibold lg:table-cell">
+              <th className="text-slate-lightest hidden py-4 pe-8 text-sm font-semibold lg:table-cell">
                 {t("table.builtWith")}
               </th>
-              <th className="text-slate-lightest hidden py-4 pr-8 text-sm font-semibold sm:table-cell">
+              <th className="text-slate-lightest hidden py-4 pe-8 text-sm font-semibold sm:table-cell">
                 {t("table.link")}
               </th>
             </tr>
@@ -120,10 +120,10 @@ export default async function Archive({
                 key={index}
                 className="border-slate-light/10 hover:bg-navy-light/50 border-b transition-colors last:border-none"
               >
-                <td className="text-teal py-4 pr-4 align-top text-sm">
+                <td className="text-teal py-4 pe-4 align-top text-sm">
                   <div className="translate-y-px">{project.year}</div>
                 </td>
-                <td className="text-slate-lightest py-4 pr-4 align-top leading-snug font-semibold">
+                <td className="text-slate-lightest py-4 pe-4 align-top leading-snug font-semibold">
                   <div className="block sm:hidden">
                     {project.link ? (
                       <a
@@ -133,7 +133,7 @@ export default async function Archive({
                         className="hover:text-teal focus-visible:text-teal group/link text-slate-lightest inline-flex items-baseline text-base leading-tight font-medium sm:hidden"
                       >
                         {project.title}
-                        <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                        <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
                       </a>
                     ) : (
                       <span>{project.title}</span>
@@ -141,10 +141,10 @@ export default async function Archive({
                   </div>
                   <div className="hidden sm:block">{project.title}</div>
                 </td>
-                <td className="hidden py-4 pr-4 align-top text-sm lg:table-cell">
+                <td className="hidden py-4 pe-4 align-top text-sm lg:table-cell">
                   <div className="translate-y-px">{project.madeAt}</div>
                 </td>
-                <td className="hidden py-4 pr-4 align-top lg:table-cell">
+                <td className="hidden py-4 pe-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     {project.builtWith.map((tech) => (
                       <li
@@ -169,7 +169,7 @@ export default async function Archive({
                           <span className="truncate">
                             {project.link.replace(/^https?:\/\//, "")}
                           </span>
-                          <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                          <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
                         </a>
                       </li>
                     </ul>

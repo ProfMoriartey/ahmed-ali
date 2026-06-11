@@ -106,7 +106,7 @@ export default async function Home({
                     {t("experience.viewFull")}
                     <span className="inline-block">
                       {t("experience.resume")}
-                      <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                      <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
                     </span>
                   </span>
                 </a>
@@ -134,7 +134,7 @@ export default async function Home({
                   aria-label={t("projects.viewArchive")}
                 >
                   <span>{t("projects.viewArchive")}</span>
-                  <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none" />
+                  <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
                 </a>
               </div>
             </ScrollReveal>
