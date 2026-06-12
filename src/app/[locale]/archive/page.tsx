@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "~/i18n/routing";
 import { FiArrowLeft, FiArrowUpRight } from "react-icons/fi";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "~/i18n/routing";

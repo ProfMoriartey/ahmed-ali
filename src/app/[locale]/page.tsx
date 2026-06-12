@@ -5,8 +5,7 @@ import Projects from "~/components/Projects";
 import ScrollReveal from "~/components/ScrollReveal";
 import { FiArrowUpRight } from "react-icons/fi";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { routing } from "~/i18n/routing";
-import Link from "next/link";
+import { Link, routing } from "~/i18n/routing";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
