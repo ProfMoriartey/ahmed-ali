@@ -1,12 +1,7 @@
-import {
-  FiGithub,
-  FiLinkedin,
-  FiCodepen,
-  FiInstagram,
-  FiTwitter,
-} from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import LanguageSwitcher from "./LanguageSwitcher";
 import EmailButton from "./EmailButton";
+import PhoneButton from "./PhoneButton"; // 1. Import the PhoneButton
 
 const socialLinks = [
   {
@@ -48,11 +43,19 @@ export default function Socials() {
             </li>
           );
         })}
+
+        {/* Contact Buttons */}
+        <li>
+          <EmailButton />
+        </li>
+        <li>
+          <PhoneButton />
+        </li>
       </ul>
 
-      {/* Decorative dot separator (optional, but looks good in this design) */}
+      {/* Decorative dot separator */}
       <div className="bg-slate-light/30 hidden h-1 w-1 rounded-full sm:block"></div>
-      <EmailButton />
+
       {/* Language Switcher */}
       <LanguageSwitcher />
     </div>

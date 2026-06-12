@@ -95,9 +95,11 @@
       "experience": "Опыт",
       "projects": "Проекты"
     },
-    "Socials": {
-      "email": "ahmed.a.alhusaini@gmail.com",
-      "copyEmail": "Копировать письмо",
-      "copied": "Скопировано!"
-    }
+ "Socials": {
+    "email": "ahmed.a.alhusaini@gmail.com",
+    "copyEmail": "Копировать электронную почту",
+    "phone": "+90 553 156 5053",
+    "copyPhone": "Копировать номер телефона",
+    "copied": "Скопировано!"
   }
+ }

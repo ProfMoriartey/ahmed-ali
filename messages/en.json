@@ -95,9 +95,11 @@
     "experience": "Experience",
     "projects": "Projects"
   },
-  "Socials": {
+ "Socials": {
     "email": "ahmed.a.alhusaini@gmail.com",
     "copyEmail": "Copy Email",
+    "phone": "+90 553 156 5053",
+    "copyPhone": "Copy Phone Number",
     "copied": "Copied!"
   }
 }

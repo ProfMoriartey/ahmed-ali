@@ -95,9 +95,11 @@
     "experience": "الخبرة",
     "projects": "المشاريع"
   },
-  "Socials": {
+ "Socials": {
     "email": "ahmed.a.alhusaini@gmail.com",
-    "copyEmail": "نسخ",
-    "copied": "تم النسخ"
+    "copyEmail": "نسخ البريد الإلكتروني",
+    "phone": "+90 553 156 5053",
+    "copyPhone": "نسخ رقم الهاتف",
+    "copied": "تم النسخ!"
   }
 }
