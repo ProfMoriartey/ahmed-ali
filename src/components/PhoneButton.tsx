@@ -28,7 +28,7 @@ export default function PhoneButton() {
     };
   }, []);
 
-  const handleClick = (e: React.MouseEvent) => {
+  const handleClick = async (e: React.MouseEvent) => {
     const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
 
     if (isTouchDevice && !isTooltipOpen) {
@@ -37,13 +37,19 @@ export default function PhoneButton() {
       return;
     }
 
-    navigator.clipboard.writeText(phone);
-    setCopied(true);
+    try {
+      // 1. Await the promise
+      await navigator.clipboard.writeText(phone);
+      setCopied(true);
 
-    setTimeout(() => {
-      setCopied(false);
-      setIsTooltipOpen(false);
-    }, 2000);
+      setTimeout(() => {
+        setCopied(false);
+        setIsTooltipOpen(false);
+      }, 2000);
+    } catch (err) {
+      // 2. Catch any potential errors
+      console.error("Failed to copy phone number: ", err);
+    }
   };
 
   return (

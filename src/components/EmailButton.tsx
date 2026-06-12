@@ -29,7 +29,7 @@ export default function EmailButton() {
     };
   }, []);
 
-  const handleClick = (e: React.MouseEvent) => {
+  const handleClick = async (e: React.MouseEvent) => {
     const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
 
     // On mobile: First tap opens the tooltip, stops the click from copying
@@ -39,15 +39,20 @@ export default function EmailButton() {
       return;
     }
 
-    // On desktop (or second tap on mobile): Copy to clipboard
-    navigator.clipboard.writeText(email);
-    setCopied(true);
+    try {
+      // 1. Await the promise
+      await navigator.clipboard.writeText(email);
+      setCopied(true);
 
-    // Reset the success state after 2 seconds
-    setTimeout(() => {
-      setCopied(false);
-      setIsTooltipOpen(false);
-    }, 2000);
+      // Reset the success state after 2 seconds
+      setTimeout(() => {
+        setCopied(false);
+        setIsTooltipOpen(false);
+      }, 2000);
+    } catch (err) {
+      // 2. Catch any potential errors (like browser permission blocks)
+      console.error("Failed to copy email: ", err);
+    }
   };
 
   return (
