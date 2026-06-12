@@ -94,5 +94,10 @@
     "about": "Sobre mí",
     "experience": "Experiencia",
     "projects": "Proyectos"
+  },
+  "Socials": {
+    "email": "ahmed.a.alhusaini@gmail.com",
+    "copyEmail": "Copiar correo electrónico",
+    "copied": "¡Copiado!"
   }
 }

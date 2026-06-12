@@ -6,6 +6,7 @@ import {
   FiTwitter,
 } from "react-icons/fi";
 import LanguageSwitcher from "./LanguageSwitcher";
+import EmailButton from "./EmailButton";
 
 const socialLinks = [
   {
@@ -51,7 +52,7 @@ export default function Socials() {
 
       {/* Decorative dot separator (optional, but looks good in this design) */}
       <div className="bg-slate-light/30 hidden h-1 w-1 rounded-full sm:block"></div>
-
+      <EmailButton />
       {/* Language Switcher */}
       <LanguageSwitcher />
     </div>

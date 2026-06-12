@@ -94,5 +94,10 @@
     "about": "نبذة عني",
     "experience": "الخبرة",
     "projects": "المشاريع"
+  },
+  "Socials": {
+    "email": "ahmed.a.alhusaini@gmail.com",
+    "copyEmail": "نسخ",
+    "copied": "تم النسخ"
   }
 }

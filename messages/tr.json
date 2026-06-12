@@ -94,5 +94,10 @@
     "about": "Hakkımda",
     "experience": "Deneyim",
     "projects": "Projeler"
+  },
+  "Socials": {
+    "email": "ahmed.a.alhusaini@gmail.com",
+    "copyEmail": "E-postayı Kopyala",
+    "copied": "Kopyalandı!"
   }
 }
