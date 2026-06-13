@@ -83,7 +83,7 @@ export default async function Archive({
       <div className="lg:py-24">
         {/* Header Section */}
         <Link
-          href={`/${locale}`} // Ensures the back button keeps the user in their current language route
+          href="/" // Ensures the back button keeps the user in their current language route
           className="group text-teal mb-2 inline-flex items-center leading-tight font-semibold transition-all"
         >
           <FiArrowLeft className="me-1 h-4 w-4 transition-transform group-hover:ltr:-translate-x-2 rtl:rotate-180 group-hover:rtl:translate-x-2" />
