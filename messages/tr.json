@@ -12,18 +12,23 @@
         "çok dilli platformlara",
         "B2B sipariş sistemlerine",
         "yönetim panellerine",
-        "ölçeklenebilir ürünlere"
+        "yapay zekâ destekli araçlara"
       ],
       "suffix": "dönüştürüyorum."
     },
     "about": {
       "title": "Hakkımda",
-      "hook": "Ölçeklenebilir, çok dilli web platformları geliştiriyorum — <highlight>B2B ürün kataloglarından</highlight> <highlight>dijital menülere</highlight> kadar.",
+      "hook": "Uçtan uca web platformları geliştiriyorum — <highlight>B2B kataloglarından</highlight> ve <highlight>randevu sistemlerinden</highlight> <highlight>yapay zekâ destekli araçlara</highlight> kadar.",
       "stats": [
         {
           "value": 800,
           "suffix": "+",
           "label": "ürün varyantı"
+        },
+        {
+          "value": 6,
+          "suffix": "+",
+          "label": "yayında uygulama"
         },
         {
           "value": 3,
@@ -34,22 +39,56 @@
           "value": 2,
           "suffix": "+",
           "label": "yıldır Hangflow ile"
-        },
-        {
-          "value": 5,
-          "suffix": "",
-          "label": "desteklenen dil"
         }
-      ],
-      "credentialsLabel": "Sertifikalar",
-      "credentials": [
-        "Meta Sertifikalı",
-        "Google Sertifikalı"
       ],
       "more": "Hakkımda daha fazlası",
       "less": "Daha az göster",
-      "p2": "Şu anda, <highlight>Tüzemen Tekstil</highlight>'in web varlığını yönetiyorum; burada resmi platformlarını sıfırdan kurup sürdürürken aynı zamanda uluslararası satış ve lojistiği de yönetiyorum. Bunun yanı sıra, <highlight>Menupedia</highlight> ve <highlight>Hastory</highlight> gibi uygulamaların tam proje yaşam döngüsünü yönetiyorum ve Finlandiyalı organizasyon <highlight>Hangflow</highlight>'un web varlığını iki yılı aşkın süredir sürdürüyorum.",
-      "p3": "<highlight>Meta</highlight> ve <highlight>Google</highlight>'dan aldığım sertifikalar, mühendisliğe olan analitik yaklaşımımı yönlendiriyor. Her zaman ölçeklenen, diller ve sınırlar ötesinde iletişim kuran projeler oluşturmaya odaklanıyorum."
+      "p1": "<highlight>Next.js</highlight>, <highlight>TypeScript</highlight> ve <highlight>PostgreSQL</highlight> ile uçtan uca uygulamalar geliştiriyor, veritabanı tasarımından yayına kadar her adımı üstleniyorum. <highlight>Tüzemen Tekstil</highlight>'de şirketin çok dilli kataloğunu ve B2B sipariş platformunu kurdum; <highlight>Hangflow</highlight> platformunu ise iki yılı aşkın süredir ayakta tutuyorum.",
+      "p2": "Ürünlere yapay zekâ da entegre ediyorum. <highlight>Hastory</highlight>, muayeneleri <highlight>OpenAI Whisper</highlight> ile yazıya döken ve LLM'lerle analiz eden bir tıbbi kayıt uygulaması; her rapor katı bir şemaya göre doğrulanıyor. Diğer işlerim arasında beş dilde çalışan menü platformu <highlight>Menupedia</highlight> ve tam Arapça (RTL) desteğine sahip bir göz kliniği randevu sistemi var.",
+      "beyond": {
+        "title": "Kodun ötesinde",
+        "languagesTitle": "Diller",
+        "educationTitle": "Eğitim",
+        "certificatesTitle": "Sertifikalar",
+        "languages": [
+          {
+            "name": "Arapça",
+            "level": "Ana dil"
+          },
+          {
+            "name": "İngilizce",
+            "level": "Akıcı · C2"
+          },
+          {
+            "name": "Türkçe",
+            "level": "Akıcı · C1"
+          },
+          {
+            "name": "İspanyolca",
+            "level": "Orta · B1"
+          }
+        ],
+        "education": [
+          {
+            "name": "Kimya Lisansı",
+            "detail": "Uludağ Üniversitesi · 2018–2022"
+          }
+        ],
+        "certificates": [
+          {
+            "name": "Front-End Geliştirici",
+            "detail": "Meta"
+          },
+          {
+            "name": "Dijital Pazarlama ve E-Ticaret",
+            "detail": "Google"
+          },
+          {
+            "name": "Proje Yönetimi",
+            "detail": "Google"
+          }
+        ]
+      }
     },
     "experience": {
       "title": "Deneyim",

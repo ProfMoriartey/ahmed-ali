@@ -12,18 +12,23 @@
         "منصات متعددة اللغات.",
         "أنظمة طلبات B2B.",
         "لوحات تحكم إدارية.",
-        "منتجات قابلة للتوسع."
+        "أدوات مدعومة بالذكاء الاصطناعي."
       ],
       "suffix": ""
     },
     "about": {
       "title": "نبذة عني",
-      "hook": "أبني منصات ويب متعددة اللغات وقابلة للتوسع — من <highlight>كتالوجات منتجات B2B</highlight> إلى <highlight>القوائم الرقمية</highlight>.",
+      "hook": "أبني منصات ويب متكاملة — من <highlight>كتالوجات B2B</highlight> و<highlight>أنظمة الحجز</highlight> إلى <highlight>أدوات مدعومة بالذكاء الاصطناعي</highlight>.",
       "stats": [
         {
           "value": 800,
           "suffix": "+",
           "label": "نوع من المنتجات"
+        },
+        {
+          "value": 6,
+          "suffix": "+",
+          "label": "تطبيقات منشورة"
         },
         {
           "value": 3,
@@ -34,22 +39,56 @@
           "value": 2,
           "suffix": "+",
           "label": "سنوات مع Hangflow"
-        },
-        {
-          "value": 5,
-          "suffix": "",
-          "label": "لغات مدعومة"
         }
-      ],
-      "credentialsLabel": "الشهادات",
-      "credentials": [
-        "شهادة من Meta",
-        "شهادة من Google"
       ],
       "more": "المزيد عني",
       "less": "عرض أقل",
-      "p2": "حالياً، أقود التواجد الرقمي لـ <highlight>Tüzemen Textile</highlight>، حيث قمت ببناء وصيانة منصتهم الرسمية من الصفر بينما أدير أيضاً المبيعات الدولية والخدمات اللوجستية. إلى جانب ذلك، أدير دورة حياة المشاريع بالكامل لتطبيقات مثل <highlight>Menupedia</highlight> و <highlight>Hastory</highlight>، وحافظت على التواجد الرقمي للمنظمة الفنلندية <highlight>Hangflow</highlight> لأكثر من عامين.",
-      "p3": "شهاداتي من <highlight>Meta</highlight> و <highlight>Google</highlight> توجّه نهجي التحليلي في الهندسة. أركز دائماً على بناء مشاريع قابلة للتوسع وتتواصل عبر اللغات والحدود."
+      "p1": "أبني تطبيقات متكاملة باستخدام <highlight>Next.js</highlight> و<highlight>TypeScript</highlight> و<highlight>PostgreSQL</highlight>، وأتولى كل خطوة من تصميم قاعدة البيانات حتى النشر. في <highlight>Tüzemen Textile</highlight> بنيت كتالوج الشركة متعدد اللغات ومنصة طلبات B2B، وأحافظ على تشغيل منصة <highlight>Hangflow</highlight> منذ أكثر من عامين.",
+      "p2": "أدمج الذكاء الاصطناعي في المنتجات أيضاً. <highlight>Hastory</highlight> تطبيق لتوثيق السجلات الطبية يحوّل الاستشارات الصوتية إلى نص باستخدام <highlight>OpenAI Whisper</highlight> ويحللها بنماذج لغوية كبيرة، مع التحقق من كل تقرير وفق مخطط صارم. ومن أعمالي أيضاً <highlight>Menupedia</highlight>، منصة قوائم طعام بخمس لغات، ونظام حجز مواعيد لعيادة عيون يدعم العربية بالكامل (RTL).",
+      "beyond": {
+        "title": "خارج البرمجة",
+        "languagesTitle": "اللغات",
+        "educationTitle": "التعليم",
+        "certificatesTitle": "الشهادات",
+        "languages": [
+          {
+            "name": "العربية",
+            "level": "اللغة الأم"
+          },
+          {
+            "name": "الإنجليزية",
+            "level": "بطلاقة · C2"
+          },
+          {
+            "name": "التركية",
+            "level": "بطلاقة · C1"
+          },
+          {
+            "name": "الإسبانية",
+            "level": "متوسط · B1"
+          }
+        ],
+        "education": [
+          {
+            "name": "بكالوريوس في الكيمياء",
+            "detail": "جامعة أولوداغ · 2018–2022"
+          }
+        ],
+        "certificates": [
+          {
+            "name": "مطور واجهات أمامية",
+            "detail": "Meta"
+          },
+          {
+            "name": "التسويق الرقمي والتجارة الإلكترونية",
+            "detail": "Google"
+          },
+          {
+            "name": "إدارة المشاريع",
+            "detail": "Google"
+          }
+        ]
+      }
     },
     "experience": {
       "title": "الخبرة",

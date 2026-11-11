@@ -5,6 +5,7 @@ import Projects from "~/components/Projects";
 import ScrollReveal from "~/components/ScrollReveal";
 import Stats from "~/components/Stats";
 import ExpandableText from "~/components/ExpandableText";
+import BeyondCode from "~/components/BeyondCode";
 import RotatingWords from "~/components/RotatingWords";
 import { altNameFor } from "~/lib/site";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -96,26 +97,13 @@ export default async function Home({
 
                 <Stats />
 
-                <ul
-                  className="flex flex-wrap gap-2"
-                  aria-label={t("about.credentialsLabel")}
-                >
-                  {(t.raw("about.credentials") as string[]).map((item) => (
-                    <li
-                      key={item}
-                      className="border-slate/30 text-slate-light rounded-full border px-3 py-1 text-xs font-medium"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-
                 <ExpandableText
                   moreLabel={t("about.more")}
                   lessLabel={t("about.less")}
                 >
+                  <p>{t.rich("about.p1", { highlight: highlightText })}</p>
                   <p>{t.rich("about.p2", { highlight: highlightText })}</p>
-                  <p>{t.rich("about.p3", { highlight: highlightText })}</p>
+                  <BeyondCode />
                 </ExpandableText>
               </div>
             </ScrollReveal>

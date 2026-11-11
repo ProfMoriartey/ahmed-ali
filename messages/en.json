@@ -12,18 +12,23 @@
         "multilingual platforms.",
         "B2B ordering systems.",
         "admin dashboards.",
-        "scalable products."
+        "AI-powered tools."
       ],
       "suffix": ""
     },
     "about": {
       "title": "About",
-      "hook": "I build multilingual web platforms that scale — from <highlight>B2B product catalogs</highlight> to <highlight>digital menus</highlight>.",
+      "hook": "I build full-stack web platforms — from <highlight>B2B catalogs</highlight> and <highlight>booking systems</highlight> to <highlight>AI-powered tools</highlight>.",
       "stats": [
         {
           "value": 800,
           "suffix": "+",
           "label": "product variants"
+        },
+        {
+          "value": 6,
+          "suffix": "+",
+          "label": "apps shipped"
         },
         {
           "value": 3,
@@ -34,22 +39,56 @@
           "value": 2,
           "suffix": "+",
           "label": "years with Hangflow"
-        },
-        {
-          "value": 5,
-          "suffix": "",
-          "label": "languages supported"
         }
-      ],
-      "credentialsLabel": "Certifications",
-      "credentials": [
-        "Meta Certified",
-        "Google Certified"
       ],
       "more": "More about me",
       "less": "Show less",
-      "p2": "Currently, I lead the web presence for <highlight>Tüzemen Textile</highlight>, where I built and maintain their official platform from the ground up while also managing international sales and logistics. Alongside this, I manage the full project lifecycle for applications like <highlight>Menupedia</highlight> and <highlight>Hastory</highlight>, and have maintained the web presence for the Finnish organization <highlight>Hangflow</highlight> for over two years.",
-      "p3": "My certifications from <highlight>Meta</highlight> and <highlight>Google</highlight> shape my analytical approach to engineering. I always focus on building projects that scale and communicate across languages and borders."
+      "p1": "I build full-stack apps with <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> and <highlight>PostgreSQL</highlight>, owning every step from database design to deployment. At <highlight>Tüzemen Textile</highlight> I built the company's multilingual catalog and B2B ordering platform, and I've kept the <highlight>Hangflow</highlight> platform running for over two years.",
+      "p2": "I also build AI into products. <highlight>Hastory</highlight> is a medical charting app that transcribes consultations with <highlight>OpenAI Whisper</highlight> and analyses them with LLMs, validating every report against a strict schema. Other work includes <highlight>Menupedia</highlight>, a menu platform in five languages, and a booking system for an eye clinic with full Arabic (RTL) support.",
+      "beyond": {
+        "title": "Beyond code",
+        "languagesTitle": "Languages",
+        "educationTitle": "Education",
+        "certificatesTitle": "Certificates",
+        "languages": [
+          {
+            "name": "Arabic",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "Fluent · C2"
+          },
+          {
+            "name": "Turkish",
+            "level": "Fluent · C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "Intermediate · B1"
+          }
+        ],
+        "education": [
+          {
+            "name": "B.Sc. Chemistry",
+            "detail": "Uludağ University · 2018–2022"
+          }
+        ],
+        "certificates": [
+          {
+            "name": "Front-End Developer",
+            "detail": "Meta"
+          },
+          {
+            "name": "Digital Marketing & E-commerce",
+            "detail": "Google"
+          },
+          {
+            "name": "Project Management",
+            "detail": "Google"
+          }
+        ]
+      }
     },
     "experience": {
       "title": "Experience",

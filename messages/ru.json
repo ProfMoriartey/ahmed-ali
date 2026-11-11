@@ -12,18 +12,23 @@
         "многоязычные платформы.",
         "системы B2B-заказов.",
         "админ-панели.",
-        "масштабируемые продукты."
+        "инструменты на базе ИИ."
       ],
       "suffix": ""
     },
     "about": {
       "title": "Обо мне",
-      "hook": "Я создаю масштабируемые многоязычные веб-платформы — от <highlight>B2B-каталогов товаров</highlight> до <highlight>цифровых меню</highlight>.",
+      "hook": "Я создаю full-stack веб-платформы — от <highlight>B2B-каталогов</highlight> и <highlight>систем бронирования</highlight> до <highlight>инструментов на базе ИИ</highlight>.",
       "stats": [
         {
           "value": 800,
           "suffix": "+",
           "label": "вариантов товаров"
+        },
+        {
+          "value": 6,
+          "suffix": "+",
+          "label": "запущенных приложений"
         },
         {
           "value": 3,
@@ -34,22 +39,56 @@
           "value": 2,
           "suffix": "+",
           "label": "года с Hangflow"
-        },
-        {
-          "value": 5,
-          "suffix": "",
-          "label": "поддерживаемых языков"
         }
-      ],
-      "credentialsLabel": "Сертификаты",
-      "credentials": [
-        "Сертификат Meta",
-        "Сертификат Google"
       ],
       "more": "Подробнее обо мне",
       "less": "Свернуть",
-      "p2": "В настоящее время я руковожу веб-присутствием <highlight>Tüzemen Textile</highlight>, где я создал и поддерживаю их официальную платформу с нуля, параллельно управляя международными продажами и логистикой. Наряду с этим, я управляю полным жизненным циклом разработки таких приложений, как <highlight>Menupedia</highlight> и <highlight>Hastory</highlight>, и более двух лет поддерживаю сайт финской организации <highlight>Hangflow</highlight>.",
-      "p3": "Сертификаты <highlight>Meta</highlight> и <highlight>Google</highlight> определяют мой аналитический подход к разработке. Я всегда фокусируюсь на создании масштабируемых проектов, которые работают на разных языках и без границ."
+      "p1": "Я разрабатываю full-stack приложения на <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> и <highlight>PostgreSQL</highlight> и отвечаю за каждый этап — от проектирования базы данных до запуска. В <highlight>Tüzemen Textile</highlight> я создал многоязычный каталог и платформу B2B-заказов компании, а платформу <highlight>Hangflow</highlight> поддерживаю уже более двух лет.",
+      "p2": "Я также встраиваю ИИ в продукты. <highlight>Hastory</highlight> — приложение для медицинской документации, которое расшифровывает приёмы с помощью <highlight>OpenAI Whisper</highlight> и анализирует их с помощью LLM, проверяя каждый отчёт по строгой схеме. Среди других работ — <highlight>Menupedia</highlight>, платформа меню на пяти языках, и система записи для глазной клиники с полной поддержкой арабского (RTL).",
+      "beyond": {
+        "title": "Помимо кода",
+        "languagesTitle": "Языки",
+        "educationTitle": "Образование",
+        "certificatesTitle": "Сертификаты",
+        "languages": [
+          {
+            "name": "Арабский",
+            "level": "Родной"
+          },
+          {
+            "name": "Английский",
+            "level": "Свободно · C2"
+          },
+          {
+            "name": "Турецкий",
+            "level": "Свободно · C1"
+          },
+          {
+            "name": "Испанский",
+            "level": "Средний · B1"
+          }
+        ],
+        "education": [
+          {
+            "name": "Бакалавр химии",
+            "detail": "Университет Улудаг · 2018–2022"
+          }
+        ],
+        "certificates": [
+          {
+            "name": "Front-End разработчик",
+            "detail": "Meta"
+          },
+          {
+            "name": "Цифровой маркетинг и e-commerce",
+            "detail": "Google"
+          },
+          {
+            "name": "Управление проектами",
+            "detail": "Google"
+          }
+        ]
+      }
     },
     "experience": {
       "title": "Опыт",
