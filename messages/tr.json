@@ -16,8 +16,6 @@
       ],
       "suffix": "dönüştürüyorum."
     },
-    "available": "Freelance projelere açığım",
-    "whatsappMessage": "Merhaba Ahmed! Portfolyonu gördüm, bir proje hakkında konuşmak isterim.",
     "about": {
       "title": "Hakkımda",
       "hook": "Ölçeklenebilir, çok dilli web platformları geliştiriyorum — <highlight>B2B ürün kataloglarından</highlight> <highlight>dijital menülere</highlight> kadar.",
@@ -164,6 +162,8 @@
     "copyEmail": "E-postayı Kopyala",
     "phone": "+90 540 698 7368",
     "copyPhone": "Telefonu Kopyala",
-    "copied": "Kopyalandı!"
+    "copied": "Kopyalandı!",
+    "whatsapp": "WhatsApp'tan yaz",
+    "whatsappMessage": "Merhaba Ahmed! Portfolyonu gördüm, bir proje hakkında konuşmak isterim."
   }
 }

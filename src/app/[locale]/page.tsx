@@ -5,7 +5,6 @@ import Projects from "~/components/Projects";
 import ScrollReveal from "~/components/ScrollReveal";
 import Stats from "~/components/Stats";
 import ExpandableText from "~/components/ExpandableText";
-import AvailabilityBadge from "~/components/AvailabilityBadge";
 import RotatingWords from "~/components/RotatingWords";
 import { altNameFor } from "~/lib/site";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -63,15 +62,14 @@ export default async function Home({
               <h2 className="text-slate-light mt-3 text-lg font-medium tracking-tight sm:text-xl">
                 {t("title")}
               </h2>
-              <p className="mt-4 max-w-xs leading-normal">
+              <p className="mt-4 max-w-sm leading-normal">
                 <span className="sr-only">{t("description")}</span>
-                <span aria-hidden="true">{t("tagline.prefix")}</span>
+                <span aria-hidden="true">{t("tagline.prefix")} </span>
                 <RotatingWords words={t.raw("tagline.words") as string[]} />
                 {t("tagline.suffix") && (
-                  <span aria-hidden="true">{t("tagline.suffix")}</span>
+                  <span aria-hidden="true"> {t("tagline.suffix")}</span>
                 )}
               </p>
-              <AvailabilityBadge />
               <Nav />
             </div>
           </ScrollReveal>

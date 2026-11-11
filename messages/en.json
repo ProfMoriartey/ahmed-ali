@@ -16,8 +16,6 @@
       ],
       "suffix": ""
     },
-    "available": "Available for freelance",
-    "whatsappMessage": "Hi Ahmed! I saw your portfolio and I'd like to talk about a project.",
     "about": {
       "title": "About",
       "hook": "I build multilingual web platforms that scale — from <highlight>B2B product catalogs</highlight> to <highlight>digital menus</highlight>.",
@@ -164,6 +162,8 @@
     "copyEmail": "Copy Email",
     "phone": "+90 540 698 7368",
     "copyPhone": "Copy Phone Number",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappMessage": "Hi Ahmed! I saw your portfolio and I'd like to talk about a project."
   }
 }

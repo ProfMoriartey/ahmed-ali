@@ -26,11 +26,16 @@ export default function RotatingWords({
 
   return (
     // Hidden from screen readers; the full sentence is provided as sr-only text
-    <span aria-hidden="true" className="relative block overflow-hidden">
+    // Inline so it sits on the same line as the prefix; nowrap keeps a phrase
+    // together if it has to move to the next line on narrow screens
+    <span
+      aria-hidden="true"
+      className="relative inline-flex overflow-hidden align-bottom"
+    >
       <AnimatePresence mode="wait" initial={false}>
         <motion.span
           key={index}
-          className="text-teal block font-medium"
+          className="text-teal inline-block font-medium whitespace-nowrap"
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}

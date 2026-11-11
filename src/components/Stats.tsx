@@ -46,7 +46,9 @@ export default function Stats() {
       {stats.map((stat, index) => (
         <motion.div
           key={stat.label}
-          className="group flex flex-col-reverse"
+          // column-reverse + justify-end pins the numbers to the top of each
+          // cell, so they line up even when a label wraps to two lines
+          className="group flex flex-col-reverse justify-end"
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}

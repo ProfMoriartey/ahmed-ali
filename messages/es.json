@@ -16,8 +16,6 @@
       ],
       "suffix": ""
     },
-    "available": "Disponible para freelance",
-    "whatsappMessage": "¡Hola Ahmed! Vi tu portafolio y me gustaría hablar sobre un proyecto.",
     "about": {
       "title": "Sobre mí",
       "hook": "Creo plataformas web multilingües que escalan — desde <highlight>catálogos de productos B2B</highlight> hasta <highlight>menús digitales</highlight>.",
@@ -164,6 +162,8 @@
     "copyEmail": "Copiar correo electrónico",
     "phone": "+90 540 698 7368",
     "copyPhone": "Copiar número de teléfono",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "whatsapp": "Escríbeme por WhatsApp",
+    "whatsappMessage": "¡Hola Ahmed! Vi tu portafolio y me gustaría hablar sobre un proyecto."
   }
 }

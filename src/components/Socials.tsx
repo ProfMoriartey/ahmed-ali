@@ -2,6 +2,7 @@ import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import LanguageSwitcher from "./LanguageSwitcher";
 import EmailButton from "./EmailButton";
 import PhoneButton from "./PhoneButton";
+import WhatsAppButton from "./WhatsAppButton";
 import { PROFILES } from "~/lib/site";
 
 const socialLinks = [
@@ -39,6 +40,9 @@ export default function Socials() {
         </li>
         <li>
           <PhoneButton />
+        </li>
+        <li>
+          <WhatsAppButton />
         </li>
       </ul>
 
