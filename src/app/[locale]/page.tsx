@@ -3,6 +3,11 @@ import Socials from "~/components/Socials";
 import Experience from "~/components/Experience";
 import Projects from "~/components/Projects";
 import ScrollReveal from "~/components/ScrollReveal";
+import Stats from "~/components/Stats";
+import ExpandableText from "~/components/ExpandableText";
+import AvailabilityBadge from "~/components/AvailabilityBadge";
+import RotatingWords from "~/components/RotatingWords";
+import { altNameFor } from "~/lib/site";
 import { FiArrowUpRight } from "react-icons/fi";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link, routing } from "~/i18n/routing";
@@ -21,6 +26,7 @@ export default async function Home({
 
   // Use getTranslations for async server components
   const t = await getTranslations("Home");
+  const altName = altNameFor(locale);
 
   // Reusable highlight function for rich text
   const highlightText = (chunks: React.ReactNode) => (
@@ -45,10 +51,27 @@ export default async function Home({
               <h1 className="text-slate-lightest text-4xl font-bold tracking-tight sm:text-5xl">
                 {t("name")}
               </h1>
+              <p className="text-slate mt-1.5 text-sm">
+                {t("alsoKnownAs") && `${t("alsoKnownAs")} `}
+                <span
+                  lang={altName.lang}
+                  className="text-slate-light font-medium"
+                >
+                  {altName.name}
+                </span>
+              </p>
               <h2 className="text-slate-light mt-3 text-lg font-medium tracking-tight sm:text-xl">
                 {t("title")}
               </h2>
-              <p className="mt-4 max-w-xs leading-normal">{t("description")}</p>
+              <p className="mt-4 max-w-xs leading-normal">
+                <span className="sr-only">{t("description")}</span>
+                <span aria-hidden="true">{t("tagline.prefix")}</span>
+                <RotatingWords words={t.raw("tagline.words") as string[]} />
+                {t("tagline.suffix") && (
+                  <span aria-hidden="true">{t("tagline.suffix")}</span>
+                )}
+              </p>
+              <AvailabilityBadge />
               <Nav />
             </div>
           </ScrollReveal>
@@ -68,19 +91,60 @@ export default async function Home({
               <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
                 {t("about.title")}
               </h3>
-              <div className="text-slate flex flex-col gap-4">
-                <p>{t("about.p1")}</p>
-                <p>
-                  {t.rich("about.p2", {
-                    highlight: highlightText,
-                  })}
+              <div className="text-slate flex flex-col gap-10">
+                <p className="text-slate-light text-xl leading-relaxed font-medium tracking-tight sm:text-2xl">
+                  {t.rich("about.hook", { highlight: highlightText })}
                 </p>
-                <p>
-                  {t.rich("about.p3", {
-                    highlight: highlightText,
-                  })}
-                </p>
+
+                <Stats />
+
+                <ul
+                  className="flex flex-wrap gap-2"
+                  aria-label={t("about.credentialsLabel")}
+                >
+                  {(t.raw("about.credentials") as string[]).map((item) => (
+                    <li
+                      key={item}
+                      className="border-slate/30 text-slate-light rounded-full border px-3 py-1 text-xs font-medium"
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+
+                <ExpandableText
+                  moreLabel={t("about.more")}
+                  lessLabel={t("about.less")}
+                >
+                  <p>{t.rich("about.p2", { highlight: highlightText })}</p>
+                  <p>{t.rich("about.p3", { highlight: highlightText })}</p>
+                </ExpandableText>
               </div>
+            </ScrollReveal>
+          </section>
+
+          <section
+            id="projects"
+            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+          >
+            <h3 className="text-slate-lightest mb-6 text-sm font-bold tracking-widest uppercase lg:sr-only">
+              {t("projects.title")}
+            </h3>
+
+            {/* Each card reveals itself, staggered */}
+            <div className="group/list">
+              <Projects />
+            </div>
+
+            <ScrollReveal>
+              <Link
+                className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-center text-base leading-tight font-semibold"
+                href="/archive"
+                aria-label={t("projects.viewArchive")}
+              >
+                <span>{t("projects.viewArchive")}</span>
+                <FiArrowUpRight className="ms-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
+              </Link>
             </ScrollReveal>
           </section>
 
@@ -88,13 +152,16 @@ export default async function Home({
             id="experience"
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
           >
+            <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
+              {t("experience.title")}
+            </h3>
+
+            {/* Each entry reveals itself, staggered */}
+            <div className="group/list">
+              <Experience />
+            </div>
+
             <ScrollReveal>
-              <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
-                {t("experience.title")}
-              </h3>
-              <div className="group/list">
-                <Experience />
-              </div>
               <div className="mt-12">
                 <a
                   className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-baseline text-base leading-tight font-medium"
@@ -110,32 +177,6 @@ export default async function Home({
                     </span>
                   </span>
                 </a>
-              </div>
-            </ScrollReveal>
-          </section>
-
-          <section
-            id="projects"
-            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-          >
-            <ScrollReveal>
-              <h3 className="text-slate-lightest mb-4 text-sm font-bold tracking-widest uppercase lg:sr-only">
-                {t("projects.title")}
-              </h3>
-
-              <div className="group/list">
-                <Projects />
-              </div>
-
-              <div className="mt-12">
-                <Link
-                  className="text-slate-lightest hover:text-teal focus-visible:text-teal group/link inline-flex items-center text-base leading-tight font-semibold"
-                  href="/archive"
-                  aria-label={t("projects.viewArchive")}
-                >
-                  <span>{t("projects.viewArchive")}</span>
-                  <FiArrowUpRight className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 motion-reduce:transition-none rtl:rotate-270 rtl:group-hover/link:-translate-x-1" />
-                </Link>
               </div>
             </ScrollReveal>
           </section>

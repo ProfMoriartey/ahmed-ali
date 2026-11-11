@@ -1,24 +1,13 @@
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import LanguageSwitcher from "./LanguageSwitcher";
 import EmailButton from "./EmailButton";
-import PhoneButton from "./PhoneButton"; // 1. Import the PhoneButton
+import PhoneButton from "./PhoneButton";
+import { PROFILES } from "~/lib/site";
 
 const socialLinks = [
-  {
-    name: "GitHub",
-    href: "https://github.com/ProfMoriartey/",
-    icon: FiGithub,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/ahmed-alhusaini/",
-    icon: FiLinkedin,
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ahmedalhusaini_/",
-    icon: FiInstagram,
-  },
+  { name: "GitHub", href: PROFILES.github, icon: FiGithub },
+  { name: "LinkedIn", href: PROFILES.linkedin, icon: FiLinkedin },
+  { name: "Instagram", href: PROFILES.instagram, icon: FiInstagram },
 ];
 
 export default function Socials() {

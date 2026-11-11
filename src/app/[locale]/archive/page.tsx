@@ -2,9 +2,42 @@ import { Link } from "~/i18n/routing";
 import { FiArrowLeft, FiArrowUpRight } from "react-icons/fi";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "~/i18n/routing";
+import type { Metadata } from "next";
+import { NAME } from "~/lib/site";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+// Override the layout's homepage canonical so this page is indexed on its own
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Archive" });
+  const home = await getTranslations({ locale, namespace: "Home" });
+  const title = `${t("title")} | ${home("name")}`;
+
+  return {
+    title,
+    alternates: {
+      canonical: `/${locale}/archive`,
+      languages: {
+        ...Object.fromEntries(routing.locales.map((l) => [l, `/${l}/archive`])),
+        "x-default": `/${routing.defaultLocale}/archive`,
+      },
+    },
+    // openGraph is replaced (not merged) per page, so repeat the shared fields
+    openGraph: {
+      title,
+      url: `/${locale}/archive`,
+      siteName: NAME,
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+      type: "website",
+    },
+  };
 }
 
 export default async function Archive({
@@ -31,7 +64,7 @@ export default async function Archive({
       year: "2026",
       title: t("projects.corporate"),
       madeAt: "Tuzemen Textile", // Proper nouns stay untranslated
-      builtWith: ["Next.js", "TypeScript", "PostgresSQL"],
+      builtWith: ["Next.js", "TypeScript", "PostgreSQL"],
       link: "https://tuzemen-tekstil.vercel.app",
     },
     {
@@ -52,7 +85,7 @@ export default async function Archive({
       year: "2025",
       title: t("projects.menu"),
       madeAt: "SAAS",
-      builtWith: ["Next.js", "Clerk", "PostgresSQL"],
+      builtWith: ["Next.js", "Clerk", "PostgreSQL"],
       link: "https://menu-pedia.com",
     },
     {

@@ -2,13 +2,56 @@
   "Home": {
     "skipToContent": "Skip to Content",
     "name": "Ahmed Alhusaini",
+    "alsoKnownAs": "also known as",
     "title": "Software Developer",
     "description": "I turn ideas into useful digital experiences.",
+    "tagline": {
+      "prefix": "I turn ideas into",
+      "words": [
+        "full-stack web apps.",
+        "multilingual platforms.",
+        "B2B ordering systems.",
+        "admin dashboards.",
+        "scalable products."
+      ],
+      "suffix": ""
+    },
+    "available": "Available for freelance",
+    "whatsappMessage": "Hi Ahmed! I saw your portfolio and I'd like to talk about a project.",
     "about": {
       "title": "About",
-      "p1": "I give great importance to building accessible, easy-to-use interfaces where design meets scalable code. I specialize in turning complex ideas into digital products that are inclusive, robust, and globally ready.",
+      "hook": "I build multilingual web platforms that scale — from <highlight>B2B product catalogs</highlight> to <highlight>digital menus</highlight>.",
+      "stats": [
+        {
+          "value": 800,
+          "suffix": "+",
+          "label": "product variants"
+        },
+        {
+          "value": 3,
+          "suffix": "+",
+          "label": "years building"
+        },
+        {
+          "value": 2,
+          "suffix": "+",
+          "label": "years with Hangflow"
+        },
+        {
+          "value": 5,
+          "suffix": "",
+          "label": "languages supported"
+        }
+      ],
+      "credentialsLabel": "Certifications",
+      "credentials": [
+        "Meta Certified",
+        "Google Certified"
+      ],
+      "more": "More about me",
+      "less": "Show less",
       "p2": "Currently, I lead the web presence for <highlight>Tüzemen Textile</highlight>, where I built and maintain their official platform from the ground up while also managing international sales and logistics. Alongside this, I manage the full project lifecycle for applications like <highlight>Menupedia</highlight> and <highlight>Hastory</highlight>, and have maintained the web presence for the Finnish organization <highlight>Hangflow</highlight> for over two years.",
-      "p3": "My Bachelor of Science in <highlight>Chemistry</highlight> and certifications from <highlight>Meta</highlight> and <highlight>Google</highlight> drive my analytical approach to engineering. I always focus on building projects that scale and communicate across languages and borders."
+      "p3": "My certifications from <highlight>Meta</highlight> and <highlight>Google</highlight> shape my analytical approach to engineering. I always focus on building projects that scale and communicate across languages and borders."
     },
     "experience": {
       "title": "Experience",
@@ -50,17 +93,27 @@
         "date": "2023 — Present",
         "title": "Web Developer",
         "company": "Freelance",
-        "link": "https://www.ahmedalhusaini.com/",
-        "description": "Build tailored full-stack applications using Next.js and TypeScript to solve specific client needs. I manage the entire project lifecycle—from initial design and database architecture to final deployment and long-term maintenance.",
-        "technologies": ["Next.js", "Shadcn UI", "Clerk", "Vercel"]
+        "link": "/archive",
+        "description": "Full-stack Next.js apps for clients — from design and database to deployment and long-term care.",
+        "technologies": [
+          "Next.js",
+          "Shadcn UI",
+          "Clerk",
+          "Vercel"
+        ]
       },
       {
         "date": "2023 — Present",
         "title": "Full-Stack Developer & Marketing Specialist",
         "company": "Tüzemen Group",
         "link": "https://tuzemen-group.vercel.app/",
-        "description": "Build and maintain the official company platform using Next.js, Drizzle, and PostgreSQL. I engineered a high-scale product catalog with 800+ variants and a custom B2B ordering system to streamline international sales. My role involves managing the full development lifecycle while securing new global clients and optimizing export logistics.",
-        "technologies": ["Web development", "Leadership", "Communication", "International Sales"]
+        "description": "Built the company platform — an 800+ variant catalog and B2B ordering system — while growing international sales.",
+        "technologies": [
+          "Next.js",
+          "Drizzle",
+          "PostgreSQL",
+          "International Sales"
+        ]
       }
     ],
     "ariaLabels": {
@@ -71,20 +124,31 @@
   "ProjectsComponent": {
     "items": [
       {
-        "title": "Full-stack web app",
-        "description": "A corporate platform for Tüzemen Group using Next.js, Drizzle, and PostgreSQL. Contains high-scale product catalog with 800+ variants, featuring dynamic filtering, an automated B2B ordering system, a custom inventory management dashboard, and more.",
-        "technologies": ["NextJS", "Shadcn UI", "PostgresSQL", "Admin Dashboard"],
+        "title": "Tüzemen B2B Platform",
+        "description": "Corporate platform with an 800+ variant catalog, B2B ordering and an inventory dashboard.",
+        "technologies": [
+          "Next.js",
+          "Drizzle",
+          "PostgreSQL",
+          "Shadcn UI"
+        ],
         "link": "https://tuzemen-tekstil.vercel.app",
         "image": "/projects/project-1.jpg"
       },
       {
-        "title": "Digital Menu Platform",
-        "description": "A multilingual menu management platform using Next.js, Clerk, and Drizzle ORM. I engineered a secure admin dashboard for full menu control, featuring real-time search and an optimized PostgreSQL database to handle cross-language content.",
-        "technologies": ["NextJS", "Clerk", "Drizzle", "User Interface"],
+        "title": "Menupedia",
+        "description": "Multilingual digital menus with a real-time admin dashboard.",
+        "technologies": [
+          "Next.js",
+          "Clerk",
+          "Drizzle",
+          "PostgreSQL"
+        ],
         "link": "https://menu-pedia.com/",
         "image": "/projects/project-2.jpg"
       }
     ],
+    "viewProject": "View project",
     "ariaLabels": {
       "technologies": "Technologies used",
       "opensInNewTab": "opens in a new tab"
@@ -95,10 +159,10 @@
     "experience": "Experience",
     "projects": "Projects"
   },
- "Socials": {
+  "Socials": {
     "email": "ahmed.a.alhusaini@gmail.com",
     "copyEmail": "Copy Email",
-    "phone": "+90 553 156 5053",
+    "phone": "+90 540 698 7368",
     "copyPhone": "Copy Phone Number",
     "copied": "Copied!"
   }

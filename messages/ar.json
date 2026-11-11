@@ -2,13 +2,56 @@
   "Home": {
     "skipToContent": "تخطي إلى المحتوى",
     "name": "أحمد الحسيني",
+    "alsoKnownAs": "ويُعرف أيضاً باسم",
     "title": "مطور برمجيات",
     "description": "أحول الأفكار إلى تجارب رقمية مفيدة.",
+    "tagline": {
+      "prefix": "أحوّل الأفكار إلى",
+      "words": [
+        "تطبيقات ويب متكاملة.",
+        "منصات متعددة اللغات.",
+        "أنظمة طلبات B2B.",
+        "لوحات تحكم إدارية.",
+        "منتجات قابلة للتوسع."
+      ],
+      "suffix": ""
+    },
+    "available": "متاح للعمل الحر",
+    "whatsappMessage": "مرحباً أحمد! رأيت معرض أعمالك وأود التحدث معك بخصوص مشروع.",
     "about": {
       "title": "نبذة عني",
-      "p1": "أولي أهمية كبيرة لبناء واجهات يسهل الوصول إليها وسهلة الاستخدام، حيث يلتقي التصميم مع الأكواد القابلة للتوسع. أتخصص في تحويل الأفكار المعقدة إلى منتجات رقمية شاملة وقوية وجاهزة عالمياً.",
+      "hook": "أبني منصات ويب متعددة اللغات وقابلة للتوسع — من <highlight>كتالوجات منتجات B2B</highlight> إلى <highlight>القوائم الرقمية</highlight>.",
+      "stats": [
+        {
+          "value": 800,
+          "suffix": "+",
+          "label": "نوع من المنتجات"
+        },
+        {
+          "value": 3,
+          "suffix": "+",
+          "label": "سنوات من الخبرة"
+        },
+        {
+          "value": 2,
+          "suffix": "+",
+          "label": "سنوات مع Hangflow"
+        },
+        {
+          "value": 5,
+          "suffix": "",
+          "label": "لغات مدعومة"
+        }
+      ],
+      "credentialsLabel": "الشهادات",
+      "credentials": [
+        "شهادة من Meta",
+        "شهادة من Google"
+      ],
+      "more": "المزيد عني",
+      "less": "عرض أقل",
       "p2": "حالياً، أقود التواجد الرقمي لـ <highlight>Tüzemen Textile</highlight>، حيث قمت ببناء وصيانة منصتهم الرسمية من الصفر بينما أدير أيضاً المبيعات الدولية والخدمات اللوجستية. إلى جانب ذلك، أدير دورة حياة المشاريع بالكامل لتطبيقات مثل <highlight>Menupedia</highlight> و <highlight>Hastory</highlight>، وحافظت على التواجد الرقمي للمنظمة الفنلندية <highlight>Hangflow</highlight> لأكثر من عامين.",
-      "p3": "بكالوريوس العلوم في <highlight>الكيمياء</highlight> والشهادات من <highlight>Meta</highlight> و <highlight>Google</highlight> يوجهون نهجي التحليلي في الهندسة. أركز دائماً على بناء مشاريع قابلة للتوسع وتتواصل عبر اللغات والحدود."
+      "p3": "شهاداتي من <highlight>Meta</highlight> و <highlight>Google</highlight> توجّه نهجي التحليلي في الهندسة. أركز دائماً على بناء مشاريع قابلة للتوسع وتتواصل عبر اللغات والحدود."
     },
     "experience": {
       "title": "الخبرة",
@@ -50,17 +93,27 @@
         "date": "2023 — الحاضر",
         "title": "مطور ويب",
         "company": "عمل حر",
-        "link": "https://www.ahmedalhusaini.com/",
-        "description": "بناء تطبيقات متكاملة مخصصة باستخدام Next.js و TypeScript لتلبية احتياجات محددة للعملاء. أدير دورة حياة المشروع بالكامل—من التصميم الأولي وهندسة قواعد البيانات إلى النشر النهائي والصيانة طويلة المدى.",
-        "technologies": ["Next.js", "Shadcn UI", "Clerk", "Vercel"]
+        "link": "/archive",
+        "description": "تطبيقات Next.js متكاملة للعملاء — من التصميم وقاعدة البيانات إلى النشر والصيانة طويلة الأمد.",
+        "technologies": [
+          "Next.js",
+          "Shadcn UI",
+          "Clerk",
+          "Vercel"
+        ]
       },
       {
         "date": "2023 — الحاضر",
         "title": "مطور متكامل وأخصائي تسويق",
         "company": "مجموعة Tüzemen",
         "link": "https://tuzemen-group.vercel.app/",
-        "description": "بناء وصيانة المنصة الرسمية للشركة باستخدام Next.js و Drizzle و PostgreSQL. صممت كتالوج منتجات واسع النطاق بأكثر من 800 متغير ونظام طلبات B2B مخصص لتسهيل المبيعات الدولية. يتضمن دوري إدارة دورة حياة التطوير بالكامل مع تأمين عملاء عالميين جدد وتحسين لوجستيات التصدير.",
-        "technologies": ["تطوير الويب", "القيادة", "التواصل", "المبيعات الدولية"]
+        "description": "بنيت منصة الشركة — كتالوج بأكثر من 800 نوع من المنتجات ونظام طلبات B2B — إلى جانب تنمية المبيعات الدولية.",
+        "technologies": [
+          "Next.js",
+          "Drizzle",
+          "PostgreSQL",
+          "المبيعات الدولية"
+        ]
       }
     ],
     "ariaLabels": {
@@ -71,20 +124,31 @@
   "ProjectsComponent": {
     "items": [
       {
-        "title": "تطبيق ويب متكامل",
-        "description": "منصة شركة لمجموعة Tüzemen باستخدام Next.js و Drizzle و PostgreSQL. تحتوي على كتالوج منتجات واسع النطاق بأكثر من 800 متغير، يتميز بتصفية ديناميكية، ونظام طلبات B2B آلي، ولوحة تحكم مخصصة لإدارة المخزون، والمزيد.",
-        "technologies": ["NextJS", "Shadcn UI", "PostgresSQL", "لوحة تحكم المسؤول"],
+        "title": "منصة Tüzemen للأعمال (B2B)",
+        "description": "منصة شركات بكتالوج يضم أكثر من 800 نوع من المنتجات، ونظام طلبات B2B، ولوحة لإدارة المخزون.",
+        "technologies": [
+          "Next.js",
+          "Drizzle",
+          "PostgreSQL",
+          "Shadcn UI"
+        ],
         "link": "https://tuzemen-tekstil.vercel.app",
         "image": "/projects/project-1.jpg"
       },
       {
-        "title": "منصة قائمة طعام رقمية",
-        "description": "منصة إدارة قوائم طعام متعددة اللغات باستخدام Next.js و Clerk و Drizzle ORM. صممت لوحة تحكم مسؤول آمنة للتحكم الكامل في القائمة، تتميز ببحث في الوقت الفعلي وقاعدة بيانات PostgreSQL محسنة للتعامل مع المحتوى متعدد اللغات.",
-        "technologies": ["NextJS", "Clerk", "Drizzle", "واجهة المستخدم"],
+        "title": "Menupedia",
+        "description": "قوائم طعام رقمية متعددة اللغات مع لوحة تحكم فورية.",
+        "technologies": [
+          "Next.js",
+          "Clerk",
+          "Drizzle",
+          "PostgreSQL"
+        ],
         "link": "https://menu-pedia.com/",
         "image": "/projects/project-2.jpg"
       }
     ],
+    "viewProject": "عرض المشروع",
     "ariaLabels": {
       "technologies": "التقنيات المستخدمة",
       "opensInNewTab": "يفتح في علامة تبويب جديدة"
@@ -95,10 +159,10 @@
     "experience": "الخبرة",
     "projects": "المشاريع"
   },
- "Socials": {
+  "Socials": {
     "email": "ahmed.a.alhusaini@gmail.com",
     "copyEmail": "نسخ البريد الإلكتروني",
-    "phone": "+90 553 156 5053",
+    "phone": "+90 540 698 7368",
     "copyPhone": "نسخ رقم الهاتف",
     "copied": "تم النسخ!"
   }

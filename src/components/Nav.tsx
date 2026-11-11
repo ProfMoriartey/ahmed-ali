@@ -10,8 +10,8 @@ export default function Nav() {
   // Move the array inside the component to use the translation hook
   const navItems = [
     { name: t("about"), href: "#about" },
-    { name: t("experience"), href: "#experience" },
     { name: t("projects"), href: "#projects" },
+    { name: t("experience"), href: "#experience" },
   ];
 
   useEffect(() => {
