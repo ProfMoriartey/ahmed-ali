@@ -43,8 +43,8 @@
       ],
       "more": "More about me",
       "less": "Show less",
-      "p1": "I build full-stack apps with <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> and <highlight>PostgreSQL</highlight>, owning every step from database design to deployment. At <highlight>Tüzemen Textile</highlight> I built the company's multilingual catalog and B2B ordering platform, and I've kept the <highlight>Hangflow</highlight> platform running for over two years.",
-      "p2": "I also build AI into products. <highlight>Hastory</highlight> is a medical charting app that transcribes consultations with <highlight>OpenAI Whisper</highlight> and analyses them with LLMs, validating every report against a strict schema. Other work includes <highlight>Menupedia</highlight>, a menu platform in five languages, and a booking system for an eye clinic with full Arabic (RTL) support.",
+      "p1": "I mostly work with <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> and <highlight>PostgreSQL</highlight>. I like being part of a project from start to finish, from planning the database to launch day and the fixes that come after. At <highlight>Tüzemen Textile</highlight> I built the company website from scratch and I still run it today, and I've been looking after <highlight>Hangflow</highlight>'s website for more than two years.",
+      "p2": "Lately I've been building with AI. My favourite so far is <highlight>Hastory</highlight>: you record a medical consultation, Whisper turns it into text, and an LLM writes it up as a structured report. I've also made <highlight>Menupedia</highlight>, a digital menu app that works in five languages, and an appointment booking site for an eye clinic.",
       "beyond": {
         "title": "Beyond code",
         "languagesTitle": "Languages",
@@ -80,7 +80,7 @@
             "detail": "Meta"
           },
           {
-            "name": "Digital Marketing & E-commerce",
+            "name": "Digital Marketing",
             "detail": "Google"
           },
           {

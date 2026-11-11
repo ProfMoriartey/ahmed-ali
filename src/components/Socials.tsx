@@ -13,7 +13,9 @@ const socialLinks = [
 
 export default function Socials() {
   return (
-    <div className="mt-8 flex items-center gap-8">
+    // Wraps on narrow phones so the language switcher drops to its own line
+    // instead of overflowing the screen
+    <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-5">
       {/* Social Icons List */}
       <ul className="flex items-center gap-5" aria-label="Social media">
         {socialLinks.map((link) => {

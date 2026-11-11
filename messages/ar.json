@@ -43,8 +43,8 @@
       ],
       "more": "المزيد عني",
       "less": "عرض أقل",
-      "p1": "أبني تطبيقات متكاملة باستخدام <highlight>Next.js</highlight> و<highlight>TypeScript</highlight> و<highlight>PostgreSQL</highlight>، وأتولى كل خطوة من تصميم قاعدة البيانات حتى النشر. في <highlight>Tüzemen Textile</highlight> بنيت كتالوج الشركة متعدد اللغات ومنصة طلبات B2B، وأحافظ على تشغيل منصة <highlight>Hangflow</highlight> منذ أكثر من عامين.",
-      "p2": "أدمج الذكاء الاصطناعي في المنتجات أيضاً. <highlight>Hastory</highlight> تطبيق لتوثيق السجلات الطبية يحوّل الاستشارات الصوتية إلى نص باستخدام <highlight>OpenAI Whisper</highlight> ويحللها بنماذج لغوية كبيرة، مع التحقق من كل تقرير وفق مخطط صارم. ومن أعمالي أيضاً <highlight>Menupedia</highlight>، منصة قوائم طعام بخمس لغات، ونظام حجز مواعيد لعيادة عيون يدعم العربية بالكامل (RTL).",
+      "p1": "أعمل غالباً بـ <highlight>Next.js</highlight> و<highlight>TypeScript</highlight> و<highlight>PostgreSQL</highlight>. أحب أن أكون جزءاً من المشروع من بدايته إلى نهايته، من تخطيط قاعدة البيانات حتى يوم الإطلاق وما بعده. في <highlight>Tüzemen Textile</highlight> بنيت موقع الشركة من الصفر وما زلت أديره حتى اليوم، وأهتم بموقع <highlight>Hangflow</highlight> منذ أكثر من عامين.",
+      "p2": "مؤخراً صرت أبني الكثير بالذكاء الاصطناعي. أكثر مشروع أحبه حتى الآن هو <highlight>Hastory</highlight>: تسجّل الاستشارة الطبية، فيحوّلها Whisper إلى نص، ثم يكتبها نموذج لغوي على شكل تقرير منظم. كما صنعت <highlight>Menupedia</highlight>، تطبيق قوائم طعام رقمية يعمل بخمس لغات، وموقعاً لحجز المواعيد لعيادة عيون.",
       "beyond": {
         "title": "خارج البرمجة",
         "languagesTitle": "اللغات",
@@ -80,7 +80,7 @@
             "detail": "Meta"
           },
           {
-            "name": "التسويق الرقمي والتجارة الإلكترونية",
+            "name": "التسويق الرقمي",
             "detail": "Google"
           },
           {

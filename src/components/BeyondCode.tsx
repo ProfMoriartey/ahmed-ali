@@ -20,7 +20,7 @@ export default function BeyondCode() {
         {t("title")}
       </h4>
 
-      <div className="grid gap-8 sm:grid-cols-3 sm:gap-6">
+      <div className="grid gap-8 sm:grid-cols-2 sm:gap-10">
         <div>
           <h5 className={heading}>{t("languagesTitle")}</h5>
           <ul className="space-y-1.5 text-sm">
@@ -35,41 +35,34 @@ export default function BeyondCode() {
           </ul>
         </div>
 
-        <ItemList
-          title={t("educationTitle")}
-          items={education}
-          heading={heading}
-        />
-        <ItemList
-          title={t("certificatesTitle")}
-          items={certificates}
-          heading={heading}
-        />
+        <div>
+          <h5 className={heading}>{t("educationTitle")}</h5>
+          <ul className="space-y-2.5 text-sm leading-snug">
+            {education.map((item) => (
+              <li key={item.name}>
+                <span className="text-slate-light block">{item.name}</span>
+                <span className="text-slate text-xs">{item.detail}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
-  );
-}
 
-function ItemList({
-  title,
-  items,
-  heading,
-}: {
-  title: string;
-  items: Item[];
-  heading: string;
-}) {
-  return (
-    <div>
-      <h5 className={heading}>{title}</h5>
-      <ul className="space-y-2.5 text-sm leading-snug">
-        {items.map((item) => (
-          <li key={item.name}>
-            <span className="text-slate-light block">{item.name}</span>
-            <span className="text-slate text-xs">{item.detail}</span>
-          </li>
-        ))}
-      </ul>
+      {/* Full width under the two columns; pills wrap, so adding more is easy */}
+      <div className="mt-8">
+        <h5 className={heading}>{t("certificatesTitle")}</h5>
+        <ul className="flex flex-wrap gap-2">
+          {certificates.map((item) => (
+            <li
+              key={item.name}
+              className="border-slate/25 rounded-full border px-3 py-1 text-xs"
+            >
+              <span className="text-slate-light">{item.name}</span>
+              <span className="text-slate"> · {item.detail}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

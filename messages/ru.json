@@ -43,8 +43,8 @@
       ],
       "more": "Подробнее обо мне",
       "less": "Свернуть",
-      "p1": "Я разрабатываю full-stack приложения на <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> и <highlight>PostgreSQL</highlight> и отвечаю за каждый этап — от проектирования базы данных до запуска. В <highlight>Tüzemen Textile</highlight> я создал многоязычный каталог и платформу B2B-заказов компании, а платформу <highlight>Hangflow</highlight> поддерживаю уже более двух лет.",
-      "p2": "Я также встраиваю ИИ в продукты. <highlight>Hastory</highlight> — приложение для медицинской документации, которое расшифровывает приёмы с помощью <highlight>OpenAI Whisper</highlight> и анализирует их с помощью LLM, проверяя каждый отчёт по строгой схеме. Среди других работ — <highlight>Menupedia</highlight>, платформа меню на пяти языках, и система записи для глазной клиники с полной поддержкой арабского (RTL).",
+      "p1": "В основном я работаю с <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> и <highlight>PostgreSQL</highlight>. Мне нравится участвовать в проекте от начала до конца: от планирования базы данных до запуска и доработок после него. Для <highlight>Tüzemen Textile</highlight> я сделал сайт компании с нуля и до сих пор его веду, а сайтом <highlight>Hangflow</highlight> занимаюсь уже больше двух лет.",
+      "p2": "В последнее время много работаю с ИИ. Мой любимый проект пока что <highlight>Hastory</highlight>: вы записываете приём у врача, Whisper переводит его в текст, а LLM составляет из него структурированный отчёт. Ещё я сделал <highlight>Menupedia</highlight>, приложение цифрового меню на пяти языках, и сайт онлайн-записи для глазной клиники.",
       "beyond": {
         "title": "Помимо кода",
         "languagesTitle": "Языки",
@@ -80,7 +80,7 @@
             "detail": "Meta"
           },
           {
-            "name": "Цифровой маркетинг и e-commerce",
+            "name": "Цифровой маркетинг",
             "detail": "Google"
           },
           {

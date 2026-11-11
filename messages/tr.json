@@ -43,8 +43,8 @@
       ],
       "more": "Hakkımda daha fazlası",
       "less": "Daha az göster",
-      "p1": "<highlight>Next.js</highlight>, <highlight>TypeScript</highlight> ve <highlight>PostgreSQL</highlight> ile uçtan uca uygulamalar geliştiriyor, veritabanı tasarımından yayına kadar her adımı üstleniyorum. <highlight>Tüzemen Tekstil</highlight>'de şirketin çok dilli kataloğunu ve B2B sipariş platformunu kurdum; <highlight>Hangflow</highlight> platformunu ise iki yılı aşkın süredir ayakta tutuyorum.",
-      "p2": "Ürünlere yapay zekâ da entegre ediyorum. <highlight>Hastory</highlight>, muayeneleri <highlight>OpenAI Whisper</highlight> ile yazıya döken ve LLM'lerle analiz eden bir tıbbi kayıt uygulaması; her rapor katı bir şemaya göre doğrulanıyor. Diğer işlerim arasında beş dilde çalışan menü platformu <highlight>Menupedia</highlight> ve tam Arapça (RTL) desteğine sahip bir göz kliniği randevu sistemi var.",
+      "p1": "Çoğunlukla <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> ve <highlight>PostgreSQL</highlight> ile çalışıyorum. Bir projede baştan sona yer almayı seviyorum: veritabanını planlamaktan yayın gününe, sonrasındaki düzeltmelere kadar. <highlight>Tüzemen Tekstil</highlight>'in web sitesini sıfırdan kurdum ve hâlâ ben yönetiyorum. <highlight>Hangflow</highlight>'un sitesiyle de iki yılı aşkın süredir ilgileniyorum.",
+      "p2": "Son zamanlarda yapay zekâ ile daha çok şey geliştiriyorum. Şimdiye kadarki favorim <highlight>Hastory</highlight>: bir muayeneyi kaydediyorsunuz, Whisper bunu yazıya döküyor, ardından bir LLM düzenli bir rapora dönüştürüyor. Bunun dışında beş dilde çalışan dijital menü uygulaması <highlight>Menupedia</highlight>'yı ve bir göz kliniği için randevu sitesini yaptım.",
       "beyond": {
         "title": "Kodun ötesinde",
         "languagesTitle": "Diller",
@@ -80,7 +80,7 @@
             "detail": "Meta"
           },
           {
-            "name": "Dijital Pazarlama ve E-Ticaret",
+            "name": "Dijital Pazarlama",
             "detail": "Google"
           },
           {

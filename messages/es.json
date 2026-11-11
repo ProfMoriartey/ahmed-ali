@@ -43,8 +43,8 @@
       ],
       "more": "Más sobre mí",
       "less": "Mostrar menos",
-      "p1": "Desarrollo aplicaciones full-stack con <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> y <highlight>PostgreSQL</highlight>, encargándome de cada paso, desde el diseño de la base de datos hasta el despliegue. En <highlight>Tüzemen Textile</highlight> construí el catálogo multilingüe y la plataforma de pedidos B2B de la empresa, y llevo más de dos años manteniendo la plataforma de <highlight>Hangflow</highlight>.",
-      "p2": "También integro IA en productos. <highlight>Hastory</highlight> es una app de historias clínicas que transcribe consultas con <highlight>OpenAI Whisper</highlight> y las analiza con LLMs, validando cada informe con un esquema estricto. Otros trabajos incluyen <highlight>Menupedia</highlight>, una plataforma de menús en cinco idiomas, y un sistema de citas para una clínica oftalmológica con soporte completo para árabe (RTL).",
+      "p1": "Trabajo sobre todo con <highlight>Next.js</highlight>, <highlight>TypeScript</highlight> y <highlight>PostgreSQL</highlight>. Me gusta estar en un proyecto de principio a fin, desde planear la base de datos hasta el día del lanzamiento y los arreglos que vienen después. En <highlight>Tüzemen Textile</highlight> hice la web de la empresa desde cero y la sigo llevando hoy, y llevo más de dos años cuidando la web de <highlight>Hangflow</highlight>.",
+      "p2": "Últimamente estoy construyendo cosas con IA. Mi favorito hasta ahora es <highlight>Hastory</highlight>: grabas una consulta médica, Whisper la pasa a texto y un LLM la convierte en un informe ordenado. También hice <highlight>Menupedia</highlight>, una app de menús digitales en cinco idiomas, y una web de citas para una clínica oftalmológica.",
       "beyond": {
         "title": "Más allá del código",
         "languagesTitle": "Idiomas",
@@ -80,7 +80,7 @@
             "detail": "Meta"
           },
           {
-            "name": "Marketing Digital y E-commerce",
+            "name": "Marketing Digital",
             "detail": "Google"
           },
           {
